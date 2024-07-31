@@ -11,3 +11,4 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_METADATA_TOKEN: ${{ secrets.ADMINISTRATION_TOKEN }}
+          ZENODOJSON_PATH: Metadata/zenodo.json

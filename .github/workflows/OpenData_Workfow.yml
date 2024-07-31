@@ -11,6 +11,8 @@ jobs:
     with:
       # General Variables 
       ZENODOJSON_PATH: Metadata/zenodo.json
+      NFDI4HEALTH_METADATA_PATH: Metadata/nfdi4health.json
+      SOURCE_FILE: Metadata/govdata.ttl
     
       # Push to OpenCoDE
       OPENCODE_ACTIVE: true

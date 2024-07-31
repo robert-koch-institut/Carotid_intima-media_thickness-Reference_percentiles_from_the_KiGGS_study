@@ -15,3 +15,4 @@ jobs:
         with:
           govdata_github_token: ${{secrets.GOVDATA_TOKEN}}
           destination_repo: robert-koch-institut/Metadaten_fuer_GovData
+          source_file: Metadata/govdata.ttl
