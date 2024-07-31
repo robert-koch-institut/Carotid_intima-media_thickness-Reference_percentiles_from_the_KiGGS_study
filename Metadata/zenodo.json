@@ -1,0 +1,124 @@
+{
+  "title": "Reference percentiles for carotid measures of subclinical atherosclerosis in children and adolescents – Data from the KiGGS study",
+  "description": "<p>The dataset presents reference centile data for carotid intima-media thickness as well as four carotid stiffness parameters. The reference percentiles are based on data from the German Health Interview and Examination Survey for Children and Adolescents 2003-2006 (KiGGS). KiGGS started as a cross-sectional study conducted between 2003 and 2006 which was based on a nationally representative sample and aimed at obtaining comprehensive data on the health of children and adolescents aged 0 to 17 years living in Germany. Detailed information on study design and conduct has been published in peer reviewed journals as well as detailed papers on individual parameters. The documentation provides relevant references.</p>\n<p>11 years later, KiGGS Wave 2 (2014-2017) was conducted as an interview and examination survey. Carotid sonography was attempted at follow-up (KiGGS2) in all 4,798 participants of the KiGGS cohort aged 14 to 28 years. Carotid intima-media thickness (CIMT) was successfully measured in 4,709 participants. Reference centiles for the distensibility coefficient, stiffness index ß, Young's elastic modulus and Peterson's elastic modulus were computed using data on 4,305 adolescents and young adults aged 14 to 28.</p>\n",
+  "creators": [
+    {
+      "name": "Büschges, Julia",
+      "affiliation": "Robert Koch Institute",
+      "orcid": "0000-0002-5669-2427"
+    },
+    {
+      "name": "Schaffrath Rosario, Angelika",
+      "affiliation": "Robert Koch Institute",
+      "orcid": "0000-0001-7777-8070"
+    },
+    {
+      "name": "Sarganas Margolis, Giselle",
+      "affiliation": "Robert Koch Institute",
+      "orcid": "0000-0002-6296-3174"
+    },
+    {
+      "name": "Koenigstein, Karsten",
+      "affiliation": "University of Basel",
+      "orcid": "0000-0002-2994-8570"
+    },
+    {
+      "name": "Schweizer, Dieter",
+      "affiliation": "Fukuda Denshi Switzerland AG"
+    },
+    {
+      "name": "Schmidt-Trucksaess, Arno",
+      "affiliation": "University of Basel",
+      "orcid": "0000-0002-4662-3911"
+    },
+    {
+      "name": "Neuhauser, Hannelore",
+      "affiliation": "Robert Koch Institute",
+      "orcid": "0000-0002-6605-6221"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Wuensche, Hannes",
+      "affiliation": "Robert Koch Institute",
+      "type": "DataCurator",
+      "orcid": "0000-0002-8837-0326"
+    }
+  ],
+  "keywords": [
+    "Carotid Intima-Media Thickness",
+    "Carotis-Intima-Media-Dicke",
+    "Vascular Stiffness",
+    "Arterielle Steifigkeit",
+    "Ultrasonography",
+    "Ultraschalldiagnostik",
+    "Atherosclerosis",
+    "Atherosklerose",
+    "Primary Prevention",
+    "Primärprävention",
+    "Risk Factors",
+    "Risikofaktoren",
+    "Adolescent",
+    "Jugendliche",
+    "Child",
+    "Kinder",
+    "Reference Values",
+    "Referenzwerte",
+    "Open Data",
+    "Offen Daten",
+    "Germany",
+    "Deutschland",
+    "RKI"
+  ],
+  "publication_date": "2022-09-04",
+  "version": "2022-09-04",
+  "upload_type": "dataset",
+  "access_right": "open",
+  "license": "CC-BY-4.0",
+  "language": "deu",
+  "communities": [
+    {
+      "identifier": "robertkochinstitut"
+    }
+  ],
+  "subjects": [
+    {
+      "term": "Public health surveillance",
+      "identifier": "info:ddc/22/eng//614.42"
+    },
+    {
+      "term": "Gesundheitsberichterstattung",
+      "identifier": "info:ddc/22/de//614.42"
+    }
+  ],
+  "dates": [
+    {
+      "start": "2022-09-04T10:11:56+02:00",
+      "end": "2022-09-04T10:11:56+02:00",
+      "type": "Created",
+      "description": "Date when the Dataset was created"
+    }
+  ],
+  "related_identifiers": [
+    {
+      "relation": "isSupplementTo",
+      "identifier": "https://github.com/robert-koch-institut/Carotid_intima-media_thickness-Reference_percentiles_from_the_KiGGS_study",
+      "resource_type": "dataset"
+    },
+    {
+      "relation": "isDocumentedBy",
+      "identifier": "https://github.com/robert-koch-institut/Carotid_intima-media_thickness-Reference_percentiles_from_the_KiGGS_study/blob/main/Readme.md",
+      "resource_type": "publication-report"
+    },
+    {
+      "relation": "isDocumentedBy",
+      "identifier": "https://github.com/robert-koch-institut/Carotid_intima-media_thickness-Reference_percentiles_from_the_KiGGS_study/blob/main/[Documentation]_Carotid_intima-media_thickness-Reference_percentiles_from_the_KiGGS_study.pdf",
+      "resource_type": "publication-report"
+    },
+    {
+      "relation": "isDescribedBy",
+      "identifier": "https://robert-koch-institut.github.io/Carotid_intima-media_thickness-Reference_percentiles_from_the_KiGGS_study",
+      "resource_type": "other"
+    }
+  ]
+}

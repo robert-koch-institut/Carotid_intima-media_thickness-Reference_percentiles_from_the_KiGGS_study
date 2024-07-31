@@ -1,0 +1,673 @@
+{
+  "access": {
+    "embargo": {
+      "active": false,
+      "reason": null
+    },
+    "files": "public",
+    "record": "public",
+    "status": "open"
+  },
+  "created": "2022-09-04T16:28:16.187534+00:00",
+  "custom_fields": {
+    "legacy:subjects": [
+      {
+        "identifier": "info:ddc/22/de//614.42",
+        "scheme": "handle",
+        "term": "Gesundheitsberichterstattung"
+      },
+      {
+        "identifier": "info:ddc/22/de//614.4",
+        "scheme": "handle",
+        "term": "Epidemiologie"
+      },
+      {
+        "identifier": "info:ddc/22/eng//614.42",
+        "scheme": "handle",
+        "term": "Public health surveillance"
+      },
+      {
+        "identifier": "info:ddc/22/eng//614.4",
+        "scheme": "handle",
+        "term": "Epidemiology"
+      }
+    ]
+  },
+  "deletion_status": {
+    "is_deleted": false,
+    "status": "P"
+  },
+  "files": {
+    "count": 6,
+    "enabled": true,
+    "entries": {
+      "KiGGS2-2014-2017_GAMLSS_Subclinical_Atherosclerosis.csv": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:8c076254a660aa5a2ed6ca8df2bb3086",
+        "ext": "csv",
+        "id": "f55c5dfb-8774-46b9-bb89-438cb3f7a38a",
+        "key": "KiGGS2-2014-2017_GAMLSS_Subclinical_Atherosclerosis.csv",
+        "links": {
+          "content": "https://zenodo.org/api/records/7048174/files/KiGGS2-2014-2017_GAMLSS_Subclinical_Atherosclerosis.csv/content",
+          "self": "https://zenodo.org/api/records/7048174/files/KiGGS2-2014-2017_GAMLSS_Subclinical_Atherosclerosis.csv"
+        },
+        "metadata": null,
+        "mimetype": "text/csv",
+        "size": 12468,
+        "storage_class": "L"
+      },
+      "KiGGS2-2014-2017_GAMLSS_Subclinical_Atherosclerosis.xlsx": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:8f85449672e9db51e1aa1389a6e0a698",
+        "ext": "xlsx",
+        "id": "b570034f-8574-4d30-ac6e-7eca23aaf724",
+        "key": "KiGGS2-2014-2017_GAMLSS_Subclinical_Atherosclerosis.xlsx",
+        "links": {
+          "content": "https://zenodo.org/api/records/7048174/files/KiGGS2-2014-2017_GAMLSS_Subclinical_Atherosclerosis.xlsx/content",
+          "self": "https://zenodo.org/api/records/7048174/files/KiGGS2-2014-2017_GAMLSS_Subclinical_Atherosclerosis.xlsx"
+        },
+        "metadata": null,
+        "mimetype": "application/octet-stream",
+        "size": 19716,
+        "storage_class": "L"
+      },
+      "KiGGS2-2014-2017_Percentiles_Subclinical_Atherosclerosis.csv": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:cc072b4ec385ee5cb1bdd5ca8a3cb5cf",
+        "ext": "csv",
+        "id": "13737268-5509-420b-b2d7-5e544e60bb7c",
+        "key": "KiGGS2-2014-2017_Percentiles_Subclinical_Atherosclerosis.csv",
+        "links": {
+          "content": "https://zenodo.org/api/records/7048174/files/KiGGS2-2014-2017_Percentiles_Subclinical_Atherosclerosis.csv/content",
+          "self": "https://zenodo.org/api/records/7048174/files/KiGGS2-2014-2017_Percentiles_Subclinical_Atherosclerosis.csv"
+        },
+        "metadata": null,
+        "mimetype": "text/csv",
+        "size": 53967,
+        "storage_class": "L"
+      },
+      "KiGGS2-2014-2017_Percentiles_Subclinical_Atherosclerosis.xlsx": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:2a5cd89225ae7b49b1bb702e02589183",
+        "ext": "xlsx",
+        "id": "f2db6057-62c6-4ce0-9a7e-829e2e3e262a",
+        "key": "KiGGS2-2014-2017_Percentiles_Subclinical_Atherosclerosis.xlsx",
+        "links": {
+          "content": "https://zenodo.org/api/records/7048174/files/KiGGS2-2014-2017_Percentiles_Subclinical_Atherosclerosis.xlsx/content",
+          "self": "https://zenodo.org/api/records/7048174/files/KiGGS2-2014-2017_Percentiles_Subclinical_Atherosclerosis.xlsx"
+        },
+        "metadata": null,
+        "mimetype": "application/octet-stream",
+        "size": 74718,
+        "storage_class": "L"
+      },
+      "Metadata.zip": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:b52701575e781a9b26fea50cac9745be",
+        "ext": "zip",
+        "id": "fa9acbd3-4832-4c3c-b4ce-6a8b26b273a8",
+        "key": "Metadata.zip",
+        "links": {
+          "content": "https://zenodo.org/api/records/7048174/files/Metadata.zip/content",
+          "self": "https://zenodo.org/api/records/7048174/files/Metadata.zip"
+        },
+        "metadata": null,
+        "mimetype": "application/zip",
+        "size": 3339,
+        "storage_class": "L"
+      },
+      "[Documentation]_Reference_percentiles_for_carotid_measures_of_subclinical_atherosclerosis_in_children_and_adolescents_\u2013_Data_from_the_KiGGS_study.pdf": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:c487dffccd4e65bf5a3026fda9ee3836",
+        "ext": "pdf",
+        "id": "39f21ba0-89e1-486d-a1db-c115f07eb776",
+        "key": "[Documentation]_Reference_percentiles_for_carotid_measures_of_subclinical_atherosclerosis_in_children_and_adolescents_\u2013_Data_from_the_KiGGS_study.pdf",
+        "links": {
+          "content": "https://zenodo.org/api/records/7048174/files/[Documentation]_Reference_percentiles_for_carotid_measures_of_subclinical_atherosclerosis_in_children_and_adolescents_%E2%80%93_Data_from_the_KiGGS_study.pdf/content",
+          "iiif_api": "https://zenodo.org/api/iiif/record:7048174:[Documentation]_Reference_percentiles_for_carotid_measures_of_subclinical_atherosclerosis_in_children_and_adolescents_%E2%80%93_Data_from_the_KiGGS_study.pdf/full/full/0/default.png",
+          "iiif_base": "https://zenodo.org/api/iiif/record:7048174:[Documentation]_Reference_percentiles_for_carotid_measures_of_subclinical_atherosclerosis_in_children_and_adolescents_%E2%80%93_Data_from_the_KiGGS_study.pdf",
+          "iiif_canvas": "https://zenodo.org/api/iiif/record:7048174/canvas/[Documentation]_Reference_percentiles_for_carotid_measures_of_subclinical_atherosclerosis_in_children_and_adolescents_%E2%80%93_Data_from_the_KiGGS_study.pdf",
+          "iiif_info": "https://zenodo.org/api/iiif/record:7048174:[Documentation]_Reference_percentiles_for_carotid_measures_of_subclinical_atherosclerosis_in_children_and_adolescents_%E2%80%93_Data_from_the_KiGGS_study.pdf/info.json",
+          "self": "https://zenodo.org/api/records/7048174/files/[Documentation]_Reference_percentiles_for_carotid_measures_of_subclinical_atherosclerosis_in_children_and_adolescents_%E2%80%93_Data_from_the_KiGGS_study.pdf"
+        },
+        "metadata": null,
+        "mimetype": "application/pdf",
+        "size": 191639,
+        "storage_class": "L"
+      }
+    },
+    "order": [],
+    "total_bytes": 355847
+  },
+  "id": "7048174",
+  "is_draft": false,
+  "is_published": true,
+  "links": {
+    "access": "https://zenodo.org/api/records/7048174/access",
+    "access_grants": "https://zenodo.org/api/records/7048174/access/grants",
+    "access_links": "https://zenodo.org/api/records/7048174/access/links",
+    "access_request": "https://zenodo.org/api/records/7048174/access/request",
+    "access_users": "https://zenodo.org/api/records/7048174/access/users",
+    "archive": "https://zenodo.org/api/records/7048174/files-archive",
+    "archive_media": "https://zenodo.org/api/records/7048174/media-files-archive",
+    "communities": "https://zenodo.org/api/records/7048174/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/7048174/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.7048174",
+    "draft": "https://zenodo.org/api/records/7048174/draft",
+    "files": "https://zenodo.org/api/records/7048174/files",
+    "latest": "https://zenodo.org/api/records/7048174/versions/latest",
+    "latest_html": "https://zenodo.org/records/7048174/latest",
+    "media_files": "https://zenodo.org/api/records/7048174/media-files",
+    "parent": "https://zenodo.org/api/records/7048173",
+    "parent_doi": "https://zenodo.org/doi/10.5281/zenodo.7048173",
+    "parent_html": "https://zenodo.org/records/7048173",
+    "requests": "https://zenodo.org/api/records/7048174/requests",
+    "reserve_doi": "https://zenodo.org/api/records/7048174/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/7048174",
+    "self_doi": "https://zenodo.org/doi/10.5281/zenodo.7048174",
+    "self_html": "https://zenodo.org/records/7048174",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:7048174/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:7048174/sequence/default",
+    "versions": "https://zenodo.org/api/records/7048174/versions"
+  },
+  "media_files": {
+    "count": 1,
+    "enabled": true,
+    "entries": {
+      "[Documentation]_Reference_percentiles_for_carotid_measures_of_subclinical_atherosclerosis_in_children_and_adolescents_\u2013_Data_from_the_KiGGS_study.pdf.ptif": {
+        "access": {
+          "hidden": true
+        },
+        "ext": "ptif",
+        "id": "bdb4c0ab-599a-4f8a-9788-1e065ad49462",
+        "key": "[Documentation]_Reference_percentiles_for_carotid_measures_of_subclinical_atherosclerosis_in_children_and_adolescents_\u2013_Data_from_the_KiGGS_study.pdf.ptif",
+        "links": {
+          "content": "https://zenodo.org/api/records/7048174/files/[Documentation]_Reference_percentiles_for_carotid_measures_of_subclinical_atherosclerosis_in_children_and_adolescents_%E2%80%93_Data_from_the_KiGGS_study.pdf.ptif/content",
+          "self": "https://zenodo.org/api/records/7048174/files/[Documentation]_Reference_percentiles_for_carotid_measures_of_subclinical_atherosclerosis_in_children_and_adolescents_%E2%80%93_Data_from_the_KiGGS_study.pdf.ptif"
+        },
+        "metadata": null,
+        "mimetype": "application/octet-stream",
+        "processor": {
+          "source_file_id": "39f21ba0-89e1-486d-a1db-c115f07eb776",
+          "status": "finished",
+          "type": "image-tiles"
+        },
+        "size": 0,
+        "storage_class": "L"
+      }
+    },
+    "order": [],
+    "total_bytes": 0
+  },
+  "metadata": {
+    "contributors": [
+      {
+        "affiliations": [
+          {
+            "id": "01k5qnb77",
+            "name": "Robert Koch Institute"
+          }
+        ],
+        "person_or_org": {
+          "family_name": "Wuensche",
+          "given_name": "Hannes",
+          "identifiers": [
+            {
+              "identifier": "0000-0002-8837-0326",
+              "scheme": "orcid"
+            }
+          ],
+          "name": "Wuensche, Hannes",
+          "type": "personal"
+        },
+        "role": {
+          "id": "datacurator",
+          "title": {
+            "de": "DatenkuratorIn",
+            "en": "Data curator"
+          }
+        }
+      }
+    ],
+    "creators": [
+      {
+        "affiliations": [
+          {
+            "id": "01k5qnb77",
+            "name": "Robert Koch Institute"
+          },
+          {
+            "id": "031t5w623",
+            "name": "German Centre for Cardiovascular Research"
+          }
+        ],
+        "person_or_org": {
+          "family_name": "Bueschges",
+          "given_name": "Julia",
+          "identifiers": [
+            {
+              "identifier": "0000-0002-5669-2427",
+              "scheme": "orcid"
+            }
+          ],
+          "name": "Bueschges, Julia",
+          "type": "personal"
+        }
+      },
+      {
+        "affiliations": [
+          {
+            "id": "01k5qnb77",
+            "name": "Robert Koch Institute"
+          }
+        ],
+        "person_or_org": {
+          "family_name": "Schaffrath Rosario",
+          "given_name": "Angelika",
+          "identifiers": [
+            {
+              "identifier": "0000-0001-7777-8070",
+              "scheme": "orcid"
+            }
+          ],
+          "name": "Schaffrath Rosario, Angelika",
+          "type": "personal"
+        }
+      },
+      {
+        "affiliations": [
+          {
+            "id": "01k5qnb77",
+            "name": "Robert Koch Institute"
+          },
+          {
+            "id": "031t5w623",
+            "name": "German Centre for Cardiovascular Research"
+          }
+        ],
+        "person_or_org": {
+          "family_name": "Sarganas Margolis",
+          "given_name": "Giselle",
+          "identifiers": [
+            {
+              "identifier": "0000-0002-6296-3174",
+              "scheme": "orcid"
+            }
+          ],
+          "name": "Sarganas Margolis, Giselle",
+          "type": "personal"
+        }
+      },
+      {
+        "affiliations": [
+          {
+            "id": "02s6k3f65",
+            "name": "University of Basel"
+          }
+        ],
+        "person_or_org": {
+          "family_name": "Koenigstein",
+          "given_name": "Karsten",
+          "identifiers": [
+            {
+              "identifier": "0000-0002-2994-8570",
+              "scheme": "orcid"
+            }
+          ],
+          "name": "Koenigstein, Karsten",
+          "type": "personal"
+        }
+      },
+      {
+        "affiliations": [
+          {
+            "name": "Fukuda Denshi Switzerland AG"
+          }
+        ],
+        "person_or_org": {
+          "family_name": "Schweizer",
+          "given_name": "Dieter",
+          "name": "Schweizer, Dieter",
+          "type": "personal"
+        }
+      },
+      {
+        "affiliations": [
+          {
+            "name": "University of Basel"
+          }
+        ],
+        "person_or_org": {
+          "family_name": "Schmidt-Trucksaess",
+          "given_name": "Arno",
+          "identifiers": [
+            {
+              "identifier": "0000-0002-4662-3911",
+              "scheme": "orcid"
+            }
+          ],
+          "name": "Schmidt-Trucksaess, Arno",
+          "type": "personal"
+        }
+      },
+      {
+        "affiliations": [
+          {
+            "id": "01k5qnb77",
+            "name": "Robert Koch Institute"
+          },
+          {
+            "id": "031t5w623",
+            "name": "German Centre for Cardiovascular Research"
+          }
+        ],
+        "person_or_org": {
+          "family_name": "Neuhauser",
+          "given_name": "Hannelore",
+          "identifiers": [
+            {
+              "identifier": "0000-0002-6605-6221",
+              "scheme": "orcid"
+            }
+          ],
+          "name": "Neuhauser, Hannelore",
+          "type": "personal"
+        }
+      }
+    ],
+    "dates": [
+      {
+        "date": "2022-09-04",
+        "type": {
+          "id": "created",
+          "title": {
+            "de": "Erstellt",
+            "en": "Created"
+          }
+        }
+      }
+    ],
+    "description": "<p>The dataset presents reference centile data for carotid intima-media thickness as well as four carotid stiffness parameters. The reference percentiles are based on data from the German Health Interview and Examination Survey for Children and Adolescents 2003-2006 (KiGGS). KiGGS started as a cross-sectional study conducted between 2003 and 2006 which was based on a nationally representative sample and aimed at obtaining comprehensive data on the health of children and adolescents aged 0 to 17 years living in Germany. Detailed information on study design and conduct has been published in peer reviewed journals as well as detailed papers on individual parameters. The documentation provides relevant references.<br>\n<br>\n11 years later, KiGGS Wave 2 (2014-2017) was conducted as an interview and examination survey. Carotid sonography was attempted at follow-up (KiGGS2) in all 4,798 participants of the KiGGS cohort aged 14 to 28 years. Carotid intima-media thickness (CIMT) was successfully measured in 4,709 participants. Reference centiles for the distensibility coefficient, stiffness index &szlig;, Young&#39;s elastic modulus and Peterson&#39;s elastic modulus were computed using data on 4,305 adolescents and young adults aged 14 to 28.</p>",
+    "languages": [
+      {
+        "id": "deu",
+        "title": {
+          "en": "German"
+        }
+      }
+    ],
+    "publication_date": "2022-09-04",
+    "publisher": "Zenodo",
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/robert-koch-institut/Carotid_intima-media_thickness-Reference_percentiles_from_the_KiGGS_study",
+        "relation_type": {
+          "id": "issupplementto",
+          "title": {
+            "de": "Erg\u00e4nzt",
+            "en": "Is supplement to"
+          }
+        },
+        "resource_type": {
+          "id": "dataset",
+          "title": {
+            "de": "Datensatz",
+            "en": "Dataset"
+          }
+        },
+        "scheme": "url"
+      },
+      {
+        "identifier": "https://github.com/robert-koch-institut/Carotid_intima-media_thickness-Reference_percentiles_from_the_KiGGS_study/blob/main/Readme.md",
+        "relation_type": {
+          "id": "isdocumentedby",
+          "title": {
+            "de": "Wird dokumentiert von",
+            "en": "Is documented by"
+          }
+        },
+        "resource_type": {
+          "id": "publication-datapaper",
+          "title": {
+            "de": "Datenpapier",
+            "en": "Data paper"
+          }
+        },
+        "scheme": "url"
+      },
+      {
+        "identifier": "https://robert-koch-institut.github.io/Carotid_intima-media_thickness-Reference_percentiles_from_the_KiGGS_study",
+        "relation_type": {
+          "id": "isdescribedby",
+          "title": {
+            "de": "Wird beschrieben von",
+            "en": "Is described by"
+          }
+        },
+        "resource_type": {
+          "id": "publication-other",
+          "title": {
+            "de": "Sonstige",
+            "en": "Other"
+          }
+        },
+        "scheme": "url"
+      }
+    ],
+    "resource_type": {
+      "id": "dataset",
+      "title": {
+        "de": "Datensatz",
+        "en": "Dataset"
+      }
+    },
+    "rights": [
+      {
+        "description": {
+          "en": "The Creative Commons Attribution license allows re-distribution and re-use of a licensed work on the condition that the creator is appropriately credited."
+        },
+        "icon": "cc-by-icon",
+        "id": "cc-by-4.0",
+        "props": {
+          "scheme": "spdx",
+          "url": "https://creativecommons.org/licenses/by/4.0/legalcode"
+        },
+        "title": {
+          "en": "Creative Commons Attribution 4.0 International"
+        }
+      }
+    ],
+    "subjects": [
+      {
+        "subject": "Carotid Intima-Media Thickness"
+      },
+      {
+        "subject": "Carotis-Intima-Media-Dicke"
+      },
+      {
+        "subject": "Vascular Stiffness"
+      },
+      {
+        "subject": "Arterielle Steifigkeit"
+      },
+      {
+        "subject": "Ultrasonography"
+      },
+      {
+        "subject": "Ultraschalldiagnostik"
+      },
+      {
+        "subject": "Atherosclerosis"
+      },
+      {
+        "subject": "Atherosklerose"
+      },
+      {
+        "subject": "Primary Prevention"
+      },
+      {
+        "subject": "Primaerpraevention"
+      },
+      {
+        "subject": "Risk Factors"
+      },
+      {
+        "subject": "Risikofaktoren"
+      },
+      {
+        "subject": "Adolescent"
+      },
+      {
+        "subject": "Jugendliche"
+      },
+      {
+        "subject": "Child"
+      },
+      {
+        "subject": "Kinder"
+      },
+      {
+        "subject": "Reference Values"
+      },
+      {
+        "subject": "Referenzwerte"
+      },
+      {
+        "subject": "RKI"
+      },
+      {
+        "subject": "KiGGS"
+      },
+      {
+        "subject": "Germany"
+      },
+      {
+        "subject": "Deutschland"
+      },
+      {
+        "subject": "Open Data"
+      },
+      {
+        "subject": "Offene Daten"
+      }
+    ],
+    "title": "Reference percentiles for carotid measures of subclinical atherosclerosis in children and adolescents \u2013 Data from the KiGGS study",
+    "version": "2022-09-04"
+  },
+  "parent": {
+    "access": {
+      "grants": [],
+      "links": [],
+      "owned_by": {
+        "user": "188146"
+      },
+      "settings": {
+        "accept_conditions_text": null,
+        "allow_guest_requests": false,
+        "allow_user_requests": false,
+        "secret_link_expiration": 0
+      }
+    },
+    "communities": {
+      "default": "fc326bb3-f61b-4765-a778-f45a7a936483",
+      "entries": [
+        {
+          "access": {
+            "member_policy": "open",
+            "members_visibility": "public",
+            "record_policy": "open",
+            "review_policy": "open",
+            "visibility": "public"
+          },
+          "children": {
+            "allow": false
+          },
+          "created": "2021-01-22T12:48:22.159328+00:00",
+          "custom_fields": {},
+          "deletion_status": {
+            "is_deleted": false,
+            "status": "P"
+          },
+          "id": "fc326bb3-f61b-4765-a778-f45a7a936483",
+          "links": {},
+          "metadata": {
+            "curation_policy": "<p>The Zenodo community of the Robert Koch Institute contains exclusively content with contributions of the Robert Koch Institute. All other submissions will be rejected.</p>",
+            "description": "The Robert Koch Institute (RKI) is the german government's central scientific institution in the field of biomedicine. It is one of the most important bodies for the safeguarding of public health in Germany.",
+            "organizations": [
+              {
+                "id": "01k5qnb77"
+              }
+            ],
+            "page": "<p>The Robert Koch Institute (RKI) is the german government&rsquo;s central scientific institution in the field of biomedicine. It is one of the most important bodies for the safeguarding of public health in Germany.</p>\n\n<p>Its tasks are:</p>\n\n<ul>\n\t<li>Identification, surveillance and prevention of diseases, especially infectious diseases</li>\n\t<li>Monitoring and analysing long-term public health trends in Germany</li>\n\t<li>Epidemiological and medical analyses and evaluation of highly pathogenic and highly contagious diseases which are of great significance to the general public</li>\n\t<li>Providing a scientific basis for health-related political decision-making</li>\n\t<li>Informing and advising political decision-makers, the scientific sector and the general public</li>\n\t<li>Executive tasks defined by special laws, in particular with regard to protection from infection, legislation on stem cell research, and attacks using biological agents</li>\n\t<li>Federal health reporting</li>\n</ul>\n\n<p>Further reading:</p>\n\n<ul>\n\t<li>englisch: <a href=\"https://www.rki.de/EN/Home/homepage_node.html\">https://www.rki.de/EN/Home/homepage_node.html</a></li>\n\t<li>german: <a href=\"https://www.rki.de/DE/Home/homepage_node.htm\">https://www.rki.de/DE/Home/homepage_node.htm</a>l</li>\n</ul>",
+            "title": "Robert Koch Institute",
+            "type": {
+              "id": "organization"
+            },
+            "website": "https://rki.de"
+          },
+          "revision_id": 1,
+          "slug": "robertkochinstitut",
+          "updated": "2023-10-19T21:05:39.465346+00:00"
+        }
+      ],
+      "ids": [
+        "fc326bb3-f61b-4765-a778-f45a7a936483"
+      ]
+    },
+    "id": "7048173",
+    "pids": {
+      "doi": {
+        "client": "datacite",
+        "identifier": "10.5281/zenodo.7048173",
+        "provider": "datacite"
+      }
+    }
+  },
+  "pids": {
+    "doi": {
+      "client": "datacite",
+      "identifier": "10.5281/zenodo.7048174",
+      "provider": "datacite"
+    },
+    "oai": {
+      "identifier": "oai:zenodo.org:7048174",
+      "provider": "oai"
+    }
+  },
+  "revision_id": 12,
+  "stats": {
+    "all_versions": {
+      "data_volume": 6818393.0,
+      "downloads": 93,
+      "unique_downloads": 77,
+      "unique_views": 62,
+      "views": 99
+    },
+    "this_version": {
+      "data_volume": 6805925.0,
+      "downloads": 92,
+      "unique_downloads": 76,
+      "unique_views": 60,
+      "views": 83
+    }
+  },
+  "status": "published",
+  "updated": "2022-09-04T12:18:52.857122+00:00",
+  "versions": {
+    "index": 1,
+    "is_latest": true,
+    "is_latest_draft": true
+  }
+}

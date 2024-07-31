@@ -1,0 +1,312 @@
+{
+  "resource": {
+    "classification": {
+      "type": "Dataset"
+    },
+    "collection": [
+      "Robert Koch Institute"
+    ],
+    "descriptions": [
+      {
+        "language": "DE (German)",
+        "text": "The dataset presents reference centile data for carotid intima-media thickness as well as four carotid stiffness parameters. The reference percentiles are based on data from the German Health Interview and Examination Survey for Children and Adolescents 2003-2006 (KiGGS). KiGGS started as a cross-sectional study conducted between 2003 and 2006 which was based on a nationally representative sample and aimed at obtaining comprehensive data on the health of children and adolescents aged 0 to 17 years living in Germany. Detailed information on study design and conduct has been published in peer reviewed journals as well as detailed papers on individual parameters. The documentation provides relevant references.\n\n11 years later, KiGGS Wave 2 (2014-2017) was conducted as an interview and examination survey. Carotid sonography was attempted at follow-up (KiGGS2) in all 4,798 participants of the KiGGS cohort aged 14 to 28 years. Carotid intima-media thickness (CIMT) was successfully measured in 4,709 participants. Reference centiles for the distensibility coefficient, stiffness index &amp;szlig;, Young's elastic modulus and Peterson's elastic modulus were computed using data on 4,305 adolescents and young adults aged 14 to 28."
+      }
+    ],
+    "titles": [
+      {
+        "language": "DE (German)",
+        "text": "Reference percentiles for carotid measures of subclinical atherosclerosis in children and adolescents – Data from the KiGGS study"
+      }
+    ],
+    "ids": [
+      {
+        "identifier": "10.5281/zenodo.7048174",
+        "typeGeneral": "Dataset",
+        "relationType": "A references B",
+        "scheme": "DOI"
+      },
+      {
+        "identifier": "https://github.com/robert-koch-institut/Carotid_intima-media_thickness-Reference_percentiles_from_the_KiGGS_study",
+        "relationType": "A references B",
+        "typeGeneral": "Dataset",
+        "scheme": "URL"
+      }
+    ],
+    "provenance": {
+      "dataSource": "Automatically uploaded: Other"
+    },
+    "keywords": [
+      {
+        "label": "Carotid Intima-Media Thickness",
+        "code": "D059168"
+      },
+      {
+        "label": "Carotis-Intima-Media-Dicke",
+        "code": "D059168"
+      },
+      {
+        "label": "Vascular Stiffness",
+        "code": "D059289"
+      },
+      {
+        "label": "Arterielle Steifigkeit",
+        "code": "D059289"
+      },
+      {
+        "label": "Ultrasonography",
+        "code": "D014463"
+      },
+      {
+        "label": "Ultraschalldiagnostik",
+        "code": "D014463"
+      },
+      {
+        "label": "Atherosclerosis",
+        "code": "D050197"
+      },
+      {
+        "label": "Atherosklerose",
+        "code": "D050197"
+      },
+      {
+        "label": "Primary Prevention",
+        "code": "D011322"
+      },
+      {
+        "label": "Primärprävention",
+        "code": "D011322"
+      },
+      {
+        "label": "Risk Factors",
+        "code": "D012307"
+      },
+      {
+        "label": "Risikofaktoren",
+        "code": "D012307"
+      },
+      {
+        "label": "Adolescent",
+        "code": "D000293"
+      },
+      {
+        "label": "Jugendliche",
+        "code": "D000293"
+      },
+      {
+        "label": "Child",
+        "code": "D002648"
+      },
+      {
+        "label": "Kinder",
+        "code": "D002648"
+      },
+      {
+        "label": "Reference Values",
+        "code": "D012016"
+      },
+      {
+        "label": "Referenzwerte",
+        "code": "D012016"
+      },
+      {
+        "label": "Public health surveillance",
+        "code": "info:ddc/22/eng//614.42"
+      },
+      {
+        "label": "Gesundheitsberichterstattung",
+        "code": "info:ddc/22/de//614.42"
+      },
+      {
+        "label": "Open Data"
+      },
+      {
+        "label": "Offen Daten"
+      },
+      {
+        "label": "Germany"
+      },
+      {
+        "label": "Deutschland"
+      },
+      {
+        "label": "RKI"
+      }
+    ],
+    "languages": [
+      "DE (German)"
+    ],
+    "nonStudyDetails": {
+      "useRights": {
+        "confirmations": {
+          "authority": true,
+          "irrevocability": true,
+          "terms": true,
+          "supportByLicensing": true
+        },
+        "label": "CC BY 4.0 (Creative Commons Attribution 4.0 International)"
+      },
+      "version": "2022-09-04"
+    },
+    "webpage": "https://robert-koch-institut.github.io/Carotid_intima-media_thickness-Reference_percentiles_from_the_KiGGS_study",
+    "contributors": [
+      {
+        "affiliations": [
+          {
+            "name": "Robert Koch Institute"
+          },
+          {
+            "name": "German Centre for Cardiovascular Research"
+          }
+        ],
+        "nameType": "Personal",
+        "personal": {
+          "type": "Creator/Author",
+          "givenName": "Julia",
+          "familyName": "Büschges",
+          "identifiers": [
+            {
+              "identifier": "0000-0002-5669-2427",
+              "scheme": "ORCID"
+            }
+          ]
+        }
+      },
+      {
+        "affiliations": [
+          {
+            "name": "Robert Koch Institute"
+          }
+        ],
+        "nameType": "Personal",
+        "personal": {
+          "type": "Creator/Author",
+          "givenName": "Angelika",
+          "familyName": "Schaffrath Rosario",
+          "identifiers": [
+            {
+              "identifier": "0000-0001-7777-8070",
+              "scheme": "ORCID"
+            }
+          ]
+        }
+      },
+      {
+        "affiliations": [
+          {
+            "name": "Robert Koch Institute"
+          },
+          {
+            "name": "German Centre for Cardiovascular Research"
+          }
+        ],
+        "nameType": "Personal",
+        "personal": {
+          "type": "Creator/Author",
+          "givenName": "Giselle",
+          "familyName": "Sarganas Margolis",
+          "identifiers": [
+            {
+              "identifier": "0000-0002-6296-3174",
+              "scheme": "ORCID"
+            }
+          ]
+        }
+      },
+      {
+        "affiliations": [
+          {
+            "name": "University of Basel"
+          },
+		  {
+            "name": "German Centre for Cardiovascular Research"
+          }
+        ],
+        "nameType": "Personal",
+        "personal": {
+          "type": "Creator/Author",
+          "givenName": "Karsten",
+          "familyName": "Koenigstein",
+          "identifiers": [
+            {
+              "identifier": "0000-0002-2994-8570",
+              "scheme": "ORCID"
+            }
+          ]
+        }
+      },
+      {
+        "affiliations": [
+          {
+            "name": "Fukuda Denshi Switzerland AG"
+          }
+        ],
+        "nameType": "Personal",
+        "personal": {
+          "type": "Creator/Author",
+          "givenName": "Dieter",
+          "familyName": "Schweizer"
+        }
+      },
+      {
+        "affiliations": [
+          {
+            "name": "University of Basel"
+          }
+        ],
+        "nameType": "Personal",
+        "personal": {
+          "type": "Creator/Author",
+          "givenName": "Arno",
+          "familyName": "Schmidt-Trucksaess",
+          "identifiers": [
+            {
+              "identifier": "0000-0002-4662-3911",
+              "scheme": "ORCID"
+            }
+          ]
+        }
+      },
+      {
+        "affiliations": [
+          {
+            "name": "Robert Koch Institute"
+          },
+          {
+            "name": "German Centre for Cardiovascular Research"
+          }
+        ],
+        "nameType": "Personal",
+        "personal": {
+          "type": "Creator/Author",
+          "givenName": "Hannelore",
+          "familyName": "Neuhauser",
+          "identifiers": [
+            {
+              "identifier": "0000-0002-6605-6221",
+              "scheme": "ORCID"
+            }
+          ]
+        }
+      },
+      {
+        "affiliations": [
+          {
+            "name": "Robert Koch Institute"
+          }
+        ],
+        "nameType": "Personal",
+        "personal": {
+          "type": "Data curator",
+          "givenName": "Hannes",
+          "familyName": "Wuensche",
+          "identifiers": [
+            {
+              "identifier": "0000-0002-8837-0326",
+              "scheme": "ORCID"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

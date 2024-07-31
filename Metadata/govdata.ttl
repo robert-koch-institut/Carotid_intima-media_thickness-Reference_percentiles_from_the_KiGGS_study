@@ -1,0 +1,68 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+              @prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+              @prefix dct: <http://purl.org/dc/terms/> .
+              @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+              @prefix schema: <http://schema.org/> .
+              @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+              @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+              <https://zenodo.org/record/7048174> a dcat:Dataset ;
+                  dcatde:contributorID <http://dcat-ap.de/def/contributors/robertKochInstitut> ;
+                  dcatde:maintainer [ a foaf:Agent ; foaf:mbox "opendata@rki.de" ; foaf:name "Robert Koch-Institut | Open Data Team"] ;
+                  dcatde:contributor [ a foaf:Person; foaf:name "Julia Büschges"; foaf:account <http://orcid.org/0000-0002-5669-2427>; ],[ a foaf:Person; foaf:name "Angelika Schaffrath Rosario"; foaf:account <http://orcid.org/0000-0001-7777-8070>; ],[ a foaf:Person; foaf:name "Giselle Sarganas Margolis"; foaf:account <http://orcid.org/0000-0002-6296-3174>; ],[ a foaf:Person; foaf:name "Karsten Koenigstein"; foaf:account <http://orcid.org/0000-0002-2994-8570>; ],[ a foaf:Person; foaf:name "Dieter Schweizer" ],[ a foaf:Person; foaf:name "Arno Schmidt-Trucksaess"; foaf:account <http://orcid.org/0000-0002-4662-3911>; ],[ a foaf:Person; foaf:name "Hannelore Neuhauser"; foaf:account <http://orcid.org/0000-0002-6605-6221>; ];
+                  dct:description "<p>The dataset presents reference centile data for carotid intima-media thickness as well as four carotid stiffness parameters. The reference percentiles are based on data from the German Health Interview and Examination Survey for Children and Adolescents 2003-2006 (KiGGS). KiGGS started as a cross-sectional study conducted between 2003 and 2006 which was based on a nationally representative sample and aimed at obtaining comprehensive data on the health of children and adolescents aged 0 to 17 years living in Germany. Detailed information on study design and conduct has been published in peer reviewed journals as well as detailed papers on individual parameters. The documentation provides relevant references.</p><p>11 years later, KiGGS Wave 2 (2014-2017) was conducted as an interview and examination survey. Carotid sonography was attempted at follow-up (KiGGS2) in all 4,798 participants of the KiGGS cohort aged 14 to 28 years. Carotid intima-media thickness (CIMT) was successfully measured in 4,709 participants. Reference centiles for the distensibility coefficient, stiffness index ß, Young's elastic modulus and Peterson's elastic modulus were computed using data on 4,305 adolescents and young adults aged 14 to 28.</p>" ;
+                  dct:issued "2022-09-04T10:11:56+02:00"^^xsd:dateTime ;
+                  dct:modified "2022-09-04T10:11:56+02:00"^^xsd:dateTime ;
+                  dct:publisher [ a foaf:Organization ;
+                      foaf:mbox "opendata@rki.de" ;
+                      foaf:name "Robert Koch Institut"
+                  ] ;
+                  dct:title "Reference percentiles for carotid measures of subclinical atherosclerosis in children and adolescents – Data from the KiGGS study" ;
+                   dcat:contactPoint [ a vcard:Organization ;
+                        vcard:fn "Robert Koch-Institut | Open Data Projektteam" ;
+                        vcard:hasCountryName "Deutschland" ;
+                        vcard:hasEmail "opendata@rki.de";
+                        vcard:hasLocality "Berlin" ;
+                        vcard:hasPostalCode "13353" ;
+                        vcard:hasStreetAddress "Nordufer 20"
+                  ];
+                  dcat:landingPage <https://robert-koch-institut.github.io/Carotid_intima-media_thickness-Reference_percentiles_from_the_KiGGS_study>;
+                  dcat:theme    <http://publications.europa.eu/resource/authority/data-theme/HEAL>,
+                                <http://publications.europa.eu/resource/authority/data-theme/SOCI>,
+                                <http://publications.europa.eu/resource/authority/data-theme/TECH>;
+                  dcat:keyword "Carotid Intima-Media Thickness","Carotis-Intima-Media-Dicke","Vascular Stiffness","Arterielle Steifigkeit","Ultrasonography","Ultraschalldiagnostik","Atherosclerosis","Atherosklerose","Primary Prevention","Primärprävention","Risk Factors","Risikofaktoren","Adolescent","Jugendliche","Child","Kinder","Reference Values","Referenzwerte","Public health surveillance","Gesundheitsberichterstattung","Open Data","Offen Daten","Germany","Deutschland","RKI";
+                  dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0>;
+                  dcat:distribution [
+                    a dcat:Distribution ;
+                    dcatde:licenseAttributionByText "Büschges, Julia et. al. (2024): Reference percentiles for carotid measures of subclinical atherosclerosis in children and adolescents – Data from the KiGGS study, Berlin: Zenodo. DOI:10.5281/zenodo.7048174" ;
+                    dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
+                    dct:description "GitHub ist eine soziales Netzwerk und Plattform, die es ermöglicht, Code-Repositories und Datensätze zu hosten, zu verwalten und zu teilen. Es bietet eine Vielzahl von Funktionen wie Versionskontrolle, Fehlerverfolgung, Zusammenarbeit und Teammanagement. GitHub ist eine der bekanntesten und am häufigsten verwendeten Plattformen für die gemeinsame Entwicklung von Software und Code, insbesondere für Open-Source-Projekte.";
+                    dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
+                    dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+                    dct:title "Github - Reference percentiles for carotid measures of subclinical atherosclerosis in children and adolescents – Data from the KiGGS study" ;
+                    dcat:accessURL <https://github.com/robert-koch-institut/Carotid_intima-media_thickness-Reference_percentiles_from_the_KiGGS_study>;
+                    dct:modified "2022-09-04T10:11:56+02:00"^^xsd:dateTime;
+                  ],
+                  [
+                    a dcat:Distribution ;
+                    dcatde:licenseAttributionByText "Büschges, Julia et. al. (2024): Reference percentiles for carotid measures of subclinical atherosclerosis in children and adolescents – Data from the KiGGS study, Berlin: Zenodo. DOI:10.5281/zenodo.7048174" ;
+                    dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
+                    dct:description "Zenodo ist eine europäische Plattform, die es Forschern, Wissenschaftlern und anderen Personen ermöglicht, Forschungsdaten, Publikationen, Präsentationen und andere wissenschaftliche Inhalte kostenlos zu teilen und zu veröffentlichen. Eine der Hauptstärken von Zenodo ist die Bereitstellung der Daten nach den FAIR Prinzipien, Daten sind langzeitarchiviert und wissenschaftlich zitierbar, um den Datenaustausch und die Zusammenarbeit zwischen Forschern zu erleichtern.";
+                    dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
+                    dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+                    dct:title "Zenodo - Reference percentiles for carotid measures of subclinical atherosclerosis in children and adolescents – Data from the KiGGS study" ;
+                    dcat:accessURL <https://zenodo.org/record/7048174>;
+                    dct:modified "2022-09-04T10:11:56+02:00"^^xsd:dateTime;
+                  ],
+                  [
+                    a dcat:Distribution ;
+                    dct:title "[Dokumentation] Reference percentiles for carotid measures of subclinical atherosclerosis in children and adolescents – Data from the KiGGS study" ;
+                    dcatde:licenseAttributionByText "Büschges, Julia et. al. (2024): Reference percentiles for carotid measures of subclinical atherosclerosis in children and adolescents – Data from the KiGGS study, Berlin: Zenodo. DOI:10.5281/zenodo.7048174" ;
+                    dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
+                    dct:description "Die Datensatzdokumentation enthält Informationen und Hinweise zum Entstehungskontext, dem Aufbau und der Nachnutzung der im Datensatz 'Reference percentiles for carotid measures of subclinical atherosclerosis in children and adolescents – Data from the KiGGS study' bereitgestellten Daten" ;
+                    dct:format <http://publications.europa.eu/resource/authority/file-type/PDF> ;
+                    dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
+                    dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+                    dcat:accessURL <https://zenodo.org/records/7048174/files/%5BDocumentation%5D_Reference_percentiles_for_carotid_measures_of_subclinical_atherosclerosis_in_children_and_adolescents_%E2%80%93_Data_from_the_KiGGS_study.pdf>;
+                    dct:modified "2022-09-04T10:11:56+02:00"^^xsd:dateTime;
+                  ].

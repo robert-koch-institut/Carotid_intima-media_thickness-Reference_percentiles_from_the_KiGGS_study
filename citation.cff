@@ -1,0 +1,86 @@
+cff-version: 1.2.0
+type: dataset
+title: >-
+  Reference percentiles for carotid measures of subclinical atherosclerosis in
+  children and adolescents – Data from the KiGGS study
+abstract: >-
+  The dataset presents reference centile data for carotid intima-media thickness
+  as well as four carotid stiffness parameters. The reference percentiles are
+  based on data from the German Health Interview and Examination Survey for
+  Children and Adolescents 2003-2006 (KiGGS). KiGGS started as a cross-sectional
+  study conducted between 2003 and 2006 which was based on a nationally
+  representative sample and aimed at obtaining comprehensive data on the health
+  of children and adolescents aged 0 to 17 years living in Germany. Detailed
+  information on study design and conduct has been published in peer reviewed
+  journals as well as detailed papers on individual parameters. The
+  documentation provides relevant references.
+
+
+  11 years later, KiGGS Wave 2 (2014-2017) was conducted as an interview and
+  examination survey. Carotid sonography was attempted at follow-up (KiGGS2) in
+  all 4,798 participants of the KiGGS cohort aged 14 to 28 years. Carotid
+  intima-media thickness (CIMT) was successfully measured in 4,709 participants.
+  Reference centiles for the distensibility coefficient, stiffness index
+  &amp;szlig;, Young's elastic modulus and Peterson's elastic modulus were
+  computed using data on 4,305 adolescents and young adults aged 14 to 28.
+date-released: '2022-09-04'
+keywords:
+  - Carotid Intima-Media Thickness
+  - Carotis-Intima-Media-Dicke
+  - Vascular Stiffness
+  - Arterielle Steifigkeit
+  - Ultrasonography
+  - Ultraschalldiagnostik
+  - Atherosclerosis
+  - Atherosklerose
+  - Primary Prevention
+  - Primärprävention
+  - Risk Factors
+  - Risikofaktoren
+  - Adolescent
+  - Jugendliche
+  - Child
+  - Kinder
+  - Reference Values
+  - Referenzwerte
+  - Public health surveillance
+  - Gesundheitsberichterstattung
+  - Open Data
+  - Offen Daten
+  - Germany
+  - Deutschland
+  - RKI
+message: Cite me!
+url: >-
+  https://robert-koch-institut.github.io/Reference_percentiles_for_carotid_measures_of_subclinical_atherosclerosis_in_children_and_adolescents_–_Data_from_the_KiGGS_study
+license: CC-BY-4.0
+doi: 10.5281/zenodo.7048174
+version: '2022-09-04T10:11:56+02:00'
+authors:
+  - family-names: Büschges
+    given-names: Julia
+    affiliation: Robert Koch Institute
+    orcid: 0000-0002-5669-2427
+  - family-names: Schaffrath Rosario
+    given-names: Angelika
+    affiliation: Robert Koch Institute
+    orcid: 0000-0001-7777-8070
+  - family-names: Sarganas Margolis
+    given-names: Giselle
+    affiliation: Robert Koch Institute
+    orcid: 0000-0002-6296-3174
+  - family-names: Koenigstein
+    given-names: Karsten
+    affiliation: University of Basel
+    orcid: 0000-0002-2994-8570
+  - family-names: Schweizer
+    given-names: Dieter
+    affiliation: Fukuda Denshi Switzerland AG
+  - family-names: Schmidt-Trucksaess
+    given-names: Arno
+    affiliation: University of Basel
+    orcid: 0000-0002-4662-3911
+  - family-names: Neuhauser
+    given-names: Hannelore
+    affiliation: Robert Koch Institute
+    orcid: 0000-0002-6605-6221
