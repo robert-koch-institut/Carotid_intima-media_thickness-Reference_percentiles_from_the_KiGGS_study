@@ -10,7 +10,7 @@ jobs:
     uses: robert-koch-institut/OpenData-Workflows/.github/workflows/OpenData_Workflows.yml@main
     with:
       # General Variables 
-      ZENODOJSON_PATH: Metadaten/zenodo.json
+      ZENODOJSON_PATH: Metadata/zenodo.json
     
       # Push to OpenCoDE
       OPENCODE_ACTIVE: true
