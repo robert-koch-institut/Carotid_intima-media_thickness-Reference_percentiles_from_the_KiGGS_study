@@ -162,9 +162,9 @@ The naming scheme of the files, “KiGGSx-YYYY-YYYY”, indicates the respective
 | sex   	| string  | `f`: female <br> `m`: male| Sex  |
 | ageY		| float   |          | Age in years |
 | height 	| integer |          | Height in cm |
-| mu   		| Integer  | | GAMLSS model parameter: Median (50th centile)  |
-| sigma 	| Integer  | | GAMLSS model parameter: Approximate coefficient of variation|
-| lambda   	| Integer  | | GAMLSS model parameter: Skewness/ Box-Cox Power Transformation|
+| mu   		| float  | | GAMLSS model parameter: Median (50th centile)  |
+| sigma 	| float  | | GAMLSS model parameter: Approximate coefficient of variation|
+| lambda   	| float  | | GAMLSS model parameter: Skewness/ Box-Cox Power Transformation|
 
 #### Data formats 
 
