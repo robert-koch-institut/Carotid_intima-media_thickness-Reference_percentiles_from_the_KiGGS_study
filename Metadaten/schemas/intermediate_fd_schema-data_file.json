@@ -1,0 +1,32 @@
+{
+  "fields": [
+    {
+      "name": "indicator",
+      "type": "string"
+    },
+    {
+      "name": "sex",
+      "type": "string"
+    },
+    {
+      "name": "ageY",
+      "type": "number"
+    },
+    {
+      "name": "height",
+      "type": "integer"
+    },
+    {
+      "name": "mu",
+      "type": "number"
+    },
+    {
+      "name": "sigma",
+      "type": "number"
+    },
+    {
+      "name": "lambda",
+      "type": "number"
+    }
+  ]
+}

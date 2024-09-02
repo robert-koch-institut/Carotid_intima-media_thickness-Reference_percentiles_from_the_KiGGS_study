@@ -4,9 +4,11 @@
       "name": "indicator",
       "type": "string",
       "description": "KiGGS indicator measured",
-      "enum": [
-        "cimt"
-      ]
+      "constraints": {
+        "enum": [
+          "cimt"
+        ]
+      }
     },
     {
       "name": "sex",
