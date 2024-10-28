@@ -156,15 +156,18 @@ The naming scheme of the files, “KiGGSx-YYYY-YYYY”, indicates the respective
 
 #### Variables
 
-| Variable | Type | Expressions | Description | 
-| -------- | -------- | -------- | -------- | 
-| indicator | string  | `cimt`   | KiGGS indicator measured |
-| sex   	| string  | `f`: female <br> `m`: male| Sex  |
-| ageY		| float   |          | Age in years |
-| height 	| integer |          | Height in cm |
-| mu   		| float  | | GAMLSS model parameter: Median (50th centile)  |
-| sigma 	| float  | | GAMLSS model parameter: Approximate coefficient of variation|
-| lambda   	| float  | | GAMLSS model parameter: Skewness/ Box-Cox Power Transformation|
+| Variable   | Typ     | Ausprägungen    | Beschreibung                                                   |
+|:-----------|:--------|:----------------|:---------------------------------------------------------------|
+| indicator  | string  | Werte: `cimt`   | KiGGS indicator measured                                       |
+| sex        | string  | Werte: `f`, `m` | Sex                                                            |
+| ageY       | number  |                 | Age in years                                                   |
+| height     | integer |                 | Height in cm                                                   |
+| mu         | number  |                 | GAMLSS model parameter: Median (50th centile)                  |
+| sigma      | number  |                 | GAMLSS model parameter: Approximate coefficient of variation   |
+| lambda     | number  |                 | GAMLSS model parameter: Skewness/ Box-Cox Power Transformation |
+
+Eine maschinenlesbares Datenschema zu diesem Datensatz finden sie in der Datei [`frictionless_data_schema_KiGGS2-2014-2017_GAMLSS_Subclinical_Atherosclerosis.json`](https://github.com/robert-koch-institut/Carotid_intima-media_thickness-Reference_percentiles_from_the_KiGGS_study/blob/main/Metadaten/schemas/frictionless_data_schema_KiGGS2-2014-2017_GAMLSS_Subclinical_Atherosclerosis.json).
+
 
 #### Data formats 
 
