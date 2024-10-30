@@ -166,6 +166,10 @@ The naming scheme of the files, “KiGGSx-YYYY-YYYY”, indicates the respective
 | sigma      | number  |                 | GAMLSS model parameter: Approximate coefficient of variation   |
 | lambda     | number  |                 | GAMLSS model parameter: Skewness/ Box-Cox Power Transformation |
 
+
+
+
+
 Eine maschinenlesbares Datenschema zu diesem Datensatz finden sie in der Datei [`frictionless_data_schema_KiGGS2-2014-2017_GAMLSS_Subclinical_Atherosclerosis.json`](https://github.com/robert-koch-institut/Carotid_intima-media_thickness-Reference_percentiles_from_the_KiGGS_study/blob/main/Metadaten/schemas/frictionless_data_schema_KiGGS2-2014-2017_GAMLSS_Subclinical_Atherosclerosis.json).
 
 
