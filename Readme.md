@@ -156,6 +156,12 @@ The naming scheme of the files, “KiGGSx-YYYY-YYYY”, indicates the respective
 
 #### Variables
 
+<!-- DATA_SCHEMA_SPECIFICATION_START: {"id": "KiGGS2-2014-2017_GAMLSS_Subclinical_Atherosclerosis", "lang": "en"} -->
+
+The file [KiGGS2-2014-2017_GAMLSS_Subclinical_Atherosclerosis.csv](https://github.com/robert-koch-institut/Carotid_intima-media_thickness-Reference_percentiles_from_the_KiGGS_study/blob/main/KiGGS2-2014-2017_GAMLSS_Subclinical_Atherosclerosis.csv) contains the variables and their values shown in the following table. A machine-readable data schema is stored in [Frictionless Data Format](https://specs.frictionlessdata.io/) in [frictionless_data_schema_KiGGS2-2014-2017_GAMLSS_Subclinical_Atherosclerosis.json](https://github.com/robert-koch-institut/Carotid_intima-media_thickness-Reference_percentiles_from_the_KiGGS_study/blob/main/Metadata/schemas/frictionless_data_schema_KiGGS2-2014-2017_GAMLSS_Subclinical_Atherosclerosis.json):
+> [frictionless_data_schema_KiGGS2-2014-2017_GAMLSS_Subclinical_Atherosclerosis.json](https://github.com/robert-koch-institut/Carotid_intima-media_thickness-Reference_percentiles_from_the_KiGGS_study/blob/main/Metadata/schemas/frictionless_data_schema_KiGGS2-2014-2017_GAMLSS_Subclinical_Atherosclerosis.json)
+
+<!-- DATA_SCHEMA_TABLE_START -->
 | Variable   | Typ     | Ausprägungen    | Beschreibung                                                   |
 |:-----------|:--------|:----------------|:---------------------------------------------------------------|
 | indicator  | string  | Werte: `cimt`   | KiGGS indicator measured                                       |
@@ -166,11 +172,14 @@ The naming scheme of the files, “KiGGSx-YYYY-YYYY”, indicates the respective
 | sigma      | number  |                 | GAMLSS model parameter: Approximate coefficient of variation   |
 | lambda     | number  |                 | GAMLSS model parameter: Skewness/ Box-Cox Power Transformation |
 
+<!-- DATA_SCHEMA_TABLE_END -->
+
+<!-- DATA_SCHEMA_SPECIFICATION_END -->
 
 
 
 
-Eine maschinenlesbares Datenschema zu diesem Datensatz finden sie in der Datei [`frictionless_data_schema_KiGGS2-2014-2017_GAMLSS_Subclinical_Atherosclerosis.json`](https://github.com/robert-koch-institut/Carotid_intima-media_thickness-Reference_percentiles_from_the_KiGGS_study/blob/main/Metadaten/schemas/frictionless_data_schema_KiGGS2-2014-2017_GAMLSS_Subclinical_Atherosclerosis.json).
+
 
 
 #### Data formats 
