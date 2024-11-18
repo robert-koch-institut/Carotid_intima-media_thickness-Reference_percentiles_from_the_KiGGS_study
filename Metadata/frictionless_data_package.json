@@ -1,0 +1,17 @@
+{
+  "name": "10.5281/zenodo.7048173",
+  "title": "Reference percentiles for carotid measures of subclinical atherosclerosis in children and adolescents – Data from the KiGGS study",
+  "description": "This file lists and describes all data files in this open data repository. For more information on frictionless data, see https://specs.frictionlessdata.io/ and https://framework.frictionlessdata.io/. More information about this dataset can be found on Zenodo (https://doi.org/10.5281/zenodo.7048173) or Github (https://github.com/robert-koch-institut/Carotid_intima-media_thickness-Reference_percentiles_from_the_KiGGS_study)",
+  "homepage": "https://doi.org/10.5281/zenodo.7048173",
+  "resources": [
+    {
+      "name": "kiggs2-2014-2017_gamlss_subclinical_atherosclerosis",
+      "type": "table",
+      "path": "../KiGGS2-2014-2017_GAMLSS_Subclinical_Atherosclerosis.csv",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": "schemas/frictionless_data_schema_KiGGS2-2014-2017_GAMLSS_Subclinical_Atherosclerosis.json"
+    }
+  ]
+}
