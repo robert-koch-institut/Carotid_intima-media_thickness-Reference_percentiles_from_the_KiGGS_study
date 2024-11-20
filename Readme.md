@@ -176,12 +176,6 @@ The file [KiGGS2-2014-2017_GAMLSS_Subclinical_Atherosclerosis.csv](https://githu
 
 <!-- DATA_SCHEMA_SPECIFICATION_END -->
 
-
-
-
-
-
-
 #### Data formats 
 
 In order to meet the community's needs, the data is provided in two formats, .csv and .xlsx. The .csv file is formatted according to the international standard:
