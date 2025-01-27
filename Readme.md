@@ -105,7 +105,7 @@ Percentiles for measures of carotid stiffness were calculated with GAMLSS as wel
 
 The data set contains aggregated data, namely the results of the GAMLSS model for each indicator. The data set contains:
 
-- reference percentile data for all indicators
+- Reference percentile data for all indicators
 - LMS data for CIMT
 - Data set documentation
 - Metadata for export to other repositories
@@ -124,13 +124,13 @@ The naming scheme of the files, “KiGGSx-YYYY-YYYY", indicates the respective K
 
 #### Variables
 
-| Variable | Type | Expressions | Description | 
+| Variable | Type | Characteristic | Description | 
 | -------- | -------- | -------- | -------- | 
-| indicator | string  | `cimt`, `dc`, `Ep`, `yem`, `beta` | KiGGS indicator meassured |
-| sex   	| string  | `f`: female <br> `m`: male| Sex  |
-| ageY		| float   |          | Age in years |
+| indicator | string  |  Values: `cimt`, `dc`, `Ep`, `yem`, `beta` | KiGGS indicator meassured |
+| sex   	| string  |  Values: `f`, `m` | Sex  |
+| ageY		| number   |          | Age in years |
 | height 	| integer |          | Height in cm |
-| P$   		| float  | 			 | KiGGS $% reference percentile, specific on modeled variables  |
+| P$   		| number  | 			 | KiGGS $% reference percentile, specific on modeled variables  |
 
 #### Data formats 
 
