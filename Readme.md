@@ -19,7 +19,9 @@ Nordufer 20
 
 **Cite**  
 
-Büschges J, Schaffrath Rosario A, Sarganas Margolis G, Königstein K, Schweizer D, Schmidt-Trucksäss A and Neuhauser H (**2022**): Reference percentiles for carotid measures of subclinical atherosclerosis in children and adolescents – Data from the KiGGS study. Berlin: Zenodo. [DOI:10.5281/zenodo.7048174](https://doi.org/10.5281/zenodo.7048174)  
+<!-- CITATION_START: {"citation_style": "apa"} -->
+Bueschges, J., Schaffrath Rosario, A., Sarganas Margolis, G., Koenigstein, K., Schweizer, D., Schmidt-Trucksaess, A., & Neuhauser, H. (2022). Reference percentiles for carotid measures of subclinical atherosclerosis in children and adolescents – Data from the KiGGS study [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.7048174](https://doi.org/10.5281/zenodo.7048174)
+<!-- CITATION_END -->
 
 
 ## General information
