@@ -12,6 +12,15 @@
       "format": "csv",
       "mediatype": "text/csv",
       "schema": "Metadata/schemas/tableschema_KiGGS2-2014-2017_GAMLSS_Subclinical_Atherosclerosis.json"
+    },
+    {
+      "name": "kiggs2-2014-2017_percentiles_subclinical_atherosclerosis",
+      "type": "table",
+      "path": "Percentiles/KiGGS2-2014-2017_Percentiles_Subclinical_Atherosclerosis.csv",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": "Metadata/schemas/tableschema_KiGGS2-2014-2017_Percentiles_Subclinical_Atherosclerosis.json"
     }
   ]
 }

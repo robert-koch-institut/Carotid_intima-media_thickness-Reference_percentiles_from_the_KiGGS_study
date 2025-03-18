@@ -3,7 +3,7 @@
     {
       "name": "indicator",
       "type": "string",
-      "description": "KiGGS indicator measured",
+      "description": "Indicator estimated by the GAMLSS model in the KiGGS study. `cimt`: carotid intima-media thickness.",
       "constraints": {
         "enum": [
           "cimt"
@@ -13,7 +13,7 @@
     {
       "name": "sex",
       "type": "string",
-      "description": "Sex",
+      "description": "Sex as an explanatory variable for the GAMLSS model; `f` : female, `m`: male",
       "constraints": {
         "enum": [
           "f",
@@ -24,27 +24,38 @@
     {
       "name": "ageY",
       "type": "number",
-      "description": "Age in years"
+      "description": "Age in years as an explanatory variable for the GAMLSS model",
+      "constraints": {
+        "minimum": 14,
+        "maximum": 28.5
+      }
     },
     {
       "name": "height",
       "type": "integer",
-      "description": "Height in cm"
+      "description": "Height in cm as an explanatory variable for the GAMLSS model",
+      "constraints": {
+        "minimum": 150,
+        "maximum": 190
+      }
     },
     {
       "name": "mu",
       "type": "number",
-      "description": "GAMLSS model parameter: Median (50th centile)"
+      "description": "GAMLSS model parameter: Median (50th centile)",
+      "example": "0.51211"
     },
     {
       "name": "sigma",
       "type": "number",
-      "description": "GAMLSS model parameter: Approximate coefficient of variation"
+      "description": "GAMLSS model parameter: Approximate coefficient of variation",
+      "example": "0.08755"
     },
     {
       "name": "lambda",
       "type": "number",
-      "description": "GAMLSS model parameter: Skewness/ Box-Cox Power Transformation"
+      "description": "GAMLSS model parameter: Skewness/ Box-Cox Power Transformation",
+      "example": "-0.05783"
     }
   ]
 }

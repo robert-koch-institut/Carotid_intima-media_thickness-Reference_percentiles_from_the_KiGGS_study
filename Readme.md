@@ -124,13 +124,30 @@ The naming scheme of the files, “KiGGSx-YYYY-YYYY", indicates the respective K
 
 #### Variables
 
-| Variable | Type | Characteristic | Description | 
-| -------- | -------- | -------- | -------- | 
-| indicator | string  |  Values: `cimt`, `dc`, `Ep`, `yem`, `beta` | KiGGS indicator meassured |
-| sex   	| string  |  Values: `f`, `m` | Sex  |
-| ageY		| number   |          | Age in years |
-| height 	| integer |          | Height in cm |
-| P$   		| number  | 			 | KiGGS $% reference percentile, specific on modeled variables  |
+
+<!-- DATA_SCHEMA_SPECIFICATION_START: {"id": "KiGGS2-2014-2017_Percentiles_Subclinical_Atherosclerosis", "lang": "en"} -->
+
+The file [Percentiles/KiGGS2-2014-2017_Percentiles_Subclinical_Atherosclerosis.csv](https://github.com/robert-koch-institut/Carotid_intima-media_thickness-Reference_percentiles_from_the_KiGGS_study/blob/main/Percentiles/KiGGS2-2014-2017_Percentiles_Subclinical_Atherosclerosis.csv) contains the variables and their values shown in the following table. A machine-readable data schema is stored in [Data Package Format](https://datapackage.org/) in [tableschema_KiGGS2-2014-2017_Percentiles_Subclinical_Atherosclerosis.json](https://github.com/robert-koch-institut/Carotid_intima-media_thickness-Reference_percentiles_from_the_KiGGS_study/blob/main/Metadata/schemas/tableschema_KiGGS2-2014-2017_Percentiles_Subclinical_Atherosclerosis.json):
+> [tableschema_KiGGS2-2014-2017_Percentiles_Subclinical_Atherosclerosis.json](https://github.com/robert-koch-institut/Carotid_intima-media_thickness-Reference_percentiles_from_the_KiGGS_study/blob/main/Metadata/schemas/tableschema_KiGGS2-2014-2017_Percentiles_Subclinical_Atherosclerosis.json)
+
+<!-- DATA_SCHEMA_TABLE_START -->
+| Variable   | Type    | Characteristic                            | Description                                                                                         |
+|:-----------|:--------|:------------------------------------------|:----------------------------------------------------------------------------------------------------|
+| indicator  | string  | Values: `cimt`, `dc`, `Ep`, `yem`, `beta` | Indicator estimated by the GAMLSS model in the KiGGS study. `cimt`: carotid intima-media thickness. |
+| sex        | string  | Values: `f`, `m`                          | Sex as an explanatory variable for the GAMLSS model; `f` : female, `m`: male                        |
+| ageY       | number  | Values: `14` - `28.5`                     | Age in years as an explanatory variable for the GAMLSS model                                        |
+| height     | integer | Values: `150` - `190`                     | Height in cm as an explanatory variable for the GAMLSS model                                        |
+| P5         | number  | Values: `≥0`                              | KiGGS 5% reference percentile, specific on modeled variables                                        |
+| P10        | number  | Values: `≥0`                              | KiGGS 10% reference percentile, specific on modeled variables                                       |
+| P25        | number  | Values: `≥0`                              | KiGGS 25% reference percentile, specific on modeled variables                                       |
+| P50        | number  | Values: `≥0`                              | KiGGS 50% reference percentile, specific on modeled variables                                       |
+| P75        | number  | Values: `≥0`                              | KiGGS 75% reference percentile, specific on modeled variables                                       |
+| P90        | number  | Values: `≥0`                              | KiGGS 90% reference percentile, specific on modeled variables                                       |
+| P95        | number  | Values: `≥0`                              | KiGGS 95% reference percentile, specific on modeled variables                                       |
+
+<!-- DATA_SCHEMA_TABLE_END -->
+
+<!-- DATA_SCHEMA_SPECIFICATION_END -->
 
 #### Data formats 
 
@@ -162,15 +179,15 @@ The file [KiGGS2-2014-2017_GAMLSS_Subclinical_Atherosclerosis.csv](https://githu
 > [tableschema_KiGGS2-2014-2017_GAMLSS_Subclinical_Atherosclerosis.json](https://github.com/robert-koch-institut/Carotid_intima-media_thickness-Reference_percentiles_from_the_KiGGS_study/blob/main/Metadata/schemas/tableschema_KiGGS2-2014-2017_GAMLSS_Subclinical_Atherosclerosis.json)
 
 <!-- DATA_SCHEMA_TABLE_START -->
-| Variable   | Type    | Characteristic   | Description                                                    |
-|:-----------|:--------|:-----------------|:---------------------------------------------------------------|
-| indicator  | string  | Values: `cimt`   | KiGGS indicator measured                                       |
-| sex        | string  | Values: `f`, `m` | Sex                                                            |
-| ageY       | number  |                  | Age in years                                                   |
-| height     | integer |                  | Height in cm                                                   |
-| mu         | number  |                  | GAMLSS model parameter: Median (50th centile)                  |
-| sigma      | number  |                  | GAMLSS model parameter: Approximate coefficient of variation   |
-| lambda     | number  |                  | GAMLSS model parameter: Skewness/ Box-Cox Power Transformation |
+| Variable   | Type    | Characteristic        | Description                                                                                         |
+|:-----------|:--------|:----------------------|:----------------------------------------------------------------------------------------------------|
+| indicator  | string  | Values: `cimt`        | Indicator estimated by the GAMLSS model in the KiGGS study. `cimt`: carotid intima-media thickness. |
+| sex        | string  | Values: `f`, `m`      | Sex as an explanatory variable for the GAMLSS model; `f` : female, `m`: male                        |
+| ageY       | number  | Values: `14` - `28.5` | Age in years as an explanatory variable for the GAMLSS model                                        |
+| height     | integer | Values: `150` - `190` | Height in cm as an explanatory variable for the GAMLSS model                                        |
+| mu         | number  | Example: `0.51211`    | GAMLSS model parameter: Median (50th centile)                                                       |
+| sigma      | number  | Example: `0.08755`    | GAMLSS model parameter: Approximate coefficient of variation                                        |
+| lambda     | number  | Example: `-0.05783`   | GAMLSS model parameter: Skewness/ Box-Cox Power Transformation                                      |
 
 <!-- DATA_SCHEMA_TABLE_END -->
 
@@ -185,23 +202,6 @@ In order to meet the community's needs, the data is provided in two formats, .cs
 
 The .xlsx file provides a German decimal separator for the reference data sets.
 
-### Metadata
-
-To increase findability, the provided data is described with metadata. Metadata is distributed to the corresponding platforms via GitHub Actions. A specific metadata file exists for each platform and is stored in the metadata folder: 
-
-> [Metadata/](/Metadata/)  
-
-Versioning and DOI assignment is done via [Zenodo.org](https://zenodo.org). The metadata provided for import into Zenodo is stored in [zenodo.json](/metadata/zenodo.json). Documentation of the individual metadata variables can be found at https://developers.zenodo.org/#representation.
-
-> [Metadaten/zenodo.json](/Metadaten/zenodo.json)  
-
-## Notes on continued use of these data
-
-Open research data of the RKI are made available on [GitHub.com](http://GitHub.com/), [Zenodo.org](http://Zenodo.org/) und [Edoc.rki.de](http://Edoc.rki.de/):
-
-- [https://github.com/robert-koch-institut](https://github.com/robert-koch-institut)
-- [https://zenodo.org/communities/robertkochinstitut](https://zenodo.org/communities/robertkochinstitut)
-- [https://edoc.rki.de](https://edoc.rki.de/) 
 
 ### Value of the data
 
@@ -211,11 +211,50 @@ Open research data of the RKI are made available on [GitHub.com](http://GitHub.c
 
 Access restrictions apply to the raw data underlying the centile estimation. The raw data set cannot be made publicly available because informed consent from study participants did not cover public deposition of data. However, the minimal data set underlying the findings is archived in the ‘Health Monitoring’ Research Data Centre at the Robert Koch Institute (RKI) and can be accessed by researchers on reasonable request. On-site access to the data set is possible at the Secure Data Center of the RKI’s ‘Health Monitoring’ Research Data Centre. Requests should be submitted to the ‘Health Monitoring’ Research Data Centre, Robert Koch Institute, Berlin, Germany fdz@rki.de.
 
+<!-- FOOTER_START: {"lang": "en"} -->
+
+
+### Metadata
+
+To increase findability, the provided data are described with metadata. The Metadata are distributed to the relevant platforms via GitHub Actions. There is a specific metadata file for each platform; these are stored in the metadata folder:
+
+> [Metadaten/](https://github.com/robert-koch-institut/Carotid_intima-media_thickness-Reference_percentiles_from_the_KiGGS_study/tree/main/Metadaten/)
+
+Versioning and DOI assignment are performed via [Zenodo.org](https://zenodo.org). The metadata prepared for import into Zenodo are stored in the [zenodo.json](https://github.com/robert-koch-institut/Carotid_intima-media_thickness-Reference_percentiles_from_the_KiGGS_study/blob/main/Metadaten/zenodo.json). Documentation of the individual metadata variables can be found at https://developers.zenodo.org/representation.
+
+> [Metadaten/zenodo.json](https://github.com/robert-koch-institut/Carotid_intima-media_thickness-Reference_percentiles_from_the_KiGGS_study/blob/main/Metadaten/zenodo.json)
+
+The zenodo.json includes the publication date and the date of the data status in the following format (example):
+```
+  "publication_date": "2024-06-19",
+  "dates": [
+    {
+      "start": "2023-09-11T15:00:21+02:00",
+      "end": "2023-09-11T15:00:21+02:00",
+      "type": "Collected",
+      "description": "Date when the Dataset was created"
+    }
+  ],
+```
+
+## Guidelines for Reuse of the Data
+
+Open data from the RKI are available on [Zenodo.org](http://Zenodo.org/), [GitHub.com](http://GitHub.com/), [OpenCoDE](https://gitlab.opencode.de), and [Edoc.rki.de](http://Edoc.rki.de/):
+
+- https://zenodo.org/communities/robertkochinstitut
+- https://github.com/robert-koch-institut
+- https://gitlab.opencode.de/robert-koch-institut
+- https://edoc.rki.de/
+
 ### License
 
-The data set "Reference percentiles for carotid measures of subclinical atherosclerosis in children and adolescents – Data from the KiGGS study" is licensed under the [Creative Commons Attribution 4.0 International Public License | CC-BY 4.0 International](https://creativecommons.org/licenses/by/4.0/deed.en)
+The "Reference percentiles for carotid measures of subclinical atherosclerosis in children and adolescents – Data from the KiGGS study" dataset is licensed under the [Creative Commons Attribution 4.0 International Public License | CC-BY](https://creativecommons.org/licenses/by/4.0/deed.en).
 
-The data provided in the data set are freely available under the condition that the Robert Koch Institute is credited as the source. This means that any person has the right to process and to modify the data, to create derivatives of the data set and to use them for commercial or non-commercial purposes. Further information on the license can be found in the [LICENSE](https://github.com/robert-koch-institut/SARS-CoV-2_Infektionen_in_Deutschland/blob/master/LICENSE) file of the data set.
+The data provided in the dataset are freely available, with the condition of attributing the Robert Koch Institute as the source, for anyone to process and modify, create derivatives of the dataset and use them for commercial and non-commercial purposes.      
+Further information about the license can be found in the [LICENSE](https://github.com/robert-koch-institut/Carotid_intima-media_thickness-Reference_percentiles_from_the_KiGGS_study/blob/main/LICENSE) or [LIZENZ](https://github.com/robert-koch-institut/Carotid_intima-media_thickness-Reference_percentiles_from_the_KiGGS_study/blob/main/LIZENZ) file of the dataset.
+
+
+<!-- FOOTER_END -->
 
 
 ## Literature
