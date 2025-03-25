@@ -1,0 +1,103 @@
+{
+  "fields": [
+    {
+      "name": "indicator",
+      "type": "string",
+      "description": "Indicator estimated by the GAMLSS model in the KiGGS study. `cimt`: carotid intima-media thickness.",
+      "constraints": {
+        "enum": [
+          "cimt",
+          "dc",
+          "Ep",
+          "yem",
+          "beta"
+        ]
+      }
+    },
+    {
+      "name": "sex",
+      "type": "string",
+      "description": "Sex as an explanatory variable for the GAMLSS model; `f` : female, `m`: male",
+      "constraints": {
+        "enum": [
+          "f",
+          "m"
+        ]
+      }
+    },
+    {
+      "name": "ageY",
+      "type": "number",
+      "description": "Age in years as an explanatory variable for the GAMLSS model",
+      "constraints": {
+        "minimum": 14,
+        "maximum": 28.5
+      }
+    },
+    {
+      "name": "height",
+      "type": "integer",
+      "description": "Height in cm as an explanatory variable for the GAMLSS model",
+      "constraints": {
+        "minimum": 150,
+        "maximum": 190
+      }
+    },
+    {
+      "name": "P5",
+      "type": "number",
+      "description": "KiGGS 5% reference percentile, specific on modeled variables",
+      "constraints": {
+        "minimum": 0
+      }
+    },
+    {
+      "name": "P10",
+      "type": "number",
+      "description": "KiGGS 10% reference percentile, specific on modeled variables",
+      "constraints": {
+        "minimum": 0
+      }
+    },
+    {
+      "name": "P25",
+      "type": "number",
+      "description": "KiGGS 25% reference percentile, specific on modeled variables",
+      "constraints": {
+        "minimum": 0
+      }
+    },
+    {
+      "name": "P50",
+      "type": "number",
+      "description": "KiGGS 50% reference percentile, specific on modeled variables",
+      "constraints": {
+        "minimum": 0
+      }
+    },
+    {
+      "name": "P75",
+      "type": "number",
+      "description": "KiGGS 75% reference percentile, specific on modeled variables",
+      "constraints": {
+        "minimum": 0
+      }
+    },
+    {
+      "name": "P90",
+      "type": "number",
+      "description": "KiGGS 90% reference percentile, specific on modeled variables",
+      "constraints": {
+        "minimum": 0
+      }
+    },
+    {
+      "name": "P95",
+      "type": "number",
+      "description": "KiGGS 95% reference percentile, specific on modeled variables",
+      "constraints": {
+        "minimum": 0
+      }
+    }
+  ]
+}
