@@ -221,7 +221,7 @@
           }
         ],
         "person_or_org": {
-          "family_name": "Wuensche",
+          "family_name": "Wünsche",
           "given_name": "Hannes",
           "identifiers": [
             {
@@ -229,7 +229,7 @@
               "scheme": "orcid"
             }
           ],
-          "name": "Wuensche, Hannes",
+          "name": "Wünsche, Hannes",
           "type": "personal"
         },
         "role": {
@@ -318,7 +318,7 @@
           }
         ],
         "person_or_org": {
-          "family_name": "Koenigstein",
+          "family_name": "Königstein",
           "given_name": "Karsten",
           "identifiers": [
             {
@@ -326,7 +326,7 @@
               "scheme": "orcid"
             }
           ],
-          "name": "Koenigstein, Karsten",
+          "name": "Königstein, Karsten",
           "type": "personal"
         }
       },
@@ -350,7 +350,7 @@
           }
         ],
         "person_or_org": {
-          "family_name": "Schmidt-Trucksaess",
+          "family_name": "Schmidt-Trucksäss",
           "given_name": "Arno",
           "identifiers": [
             {
@@ -358,7 +358,7 @@
               "scheme": "orcid"
             }
           ],
-          "name": "Schmidt-Trucksaess, Arno",
+          "name": "Schmidt-Trucksäss, Arno",
           "type": "personal"
         }
       },

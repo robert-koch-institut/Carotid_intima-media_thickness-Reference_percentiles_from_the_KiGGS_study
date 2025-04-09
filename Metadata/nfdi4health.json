@@ -225,7 +225,7 @@
         "personal": {
           "type": "Creator/Author",
           "givenName": "Karsten",
-          "familyName": "Koenigstein",
+          "familyName": "Königstein",
           "identifiers": [
             {
               "identifier": "0000-0002-2994-8570",
@@ -257,7 +257,7 @@
         "personal": {
           "type": "Creator/Author",
           "givenName": "Arno",
-          "familyName": "Schmidt-Trucksaess",
+          "familyName": "Schmidt-Trucksäss",
           "identifiers": [
             {
               "identifier": "0000-0002-4662-3911",
@@ -298,7 +298,7 @@
         "personal": {
           "type": "Data curator",
           "givenName": "Hannes",
-          "familyName": "Wuensche",
+          "familyName": "Wünsche",
           "identifiers": [
             {
               "identifier": "0000-0002-8837-0326",
