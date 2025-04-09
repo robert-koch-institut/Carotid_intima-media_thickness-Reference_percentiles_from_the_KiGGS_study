@@ -19,7 +19,9 @@ Nordufer 20
 
 **Cite**  
 
-Büschges J, Schaffrath Rosario A, Sarganas Margolis G, Königstein K, Schweizer D, Schmidt-Trucksäss A and Neuhauser H (**2022**): Reference percentiles for carotid measures of subclinical atherosclerosis in children and adolescents – Data from the KiGGS study. Berlin: Zenodo. [DOI:10.5281/zenodo.7048174](https://doi.org/10.5281/zenodo.7048174)  
+<!-- CITATION_START: {"citation_style": "apa"} -->
+Büschges, J., Schaffrath Rosario, A., Sarganas Margolis, G., Königstein, K., Schweizer, D., Schmidt-Trucksäss, A., & Neuhauser, H. (2022). Reference percentiles for carotid measures of subclinical atherosclerosis in children and adolescents – Data from the KiGGS study [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.7048174](https://doi.org/10.5281/zenodo.7048174)
+<!-- CITATION_END -->
 
 
 ## General information
@@ -218,11 +220,11 @@ Access restrictions apply to the raw data underlying the centile estimation. The
 
 To increase findability, the provided data are described with metadata. The Metadata are distributed to the relevant platforms via GitHub Actions. There is a specific metadata file for each platform; these are stored in the metadata folder:
 
-> [Metadaten/](https://github.com/robert-koch-institut/Carotid_intima-media_thickness-Reference_percentiles_from_the_KiGGS_study/tree/main/Metadaten/)
+> [Metadata/](https://github.com/robert-koch-institut/Carotid_intima-media_thickness-Reference_percentiles_from_the_KiGGS_study/tree/main/Metadata/)
 
 Versioning and DOI assignment are performed via [Zenodo.org](https://zenodo.org). The metadata prepared for import into Zenodo are stored in the [zenodo.json](https://github.com/robert-koch-institut/Carotid_intima-media_thickness-Reference_percentiles_from_the_KiGGS_study/blob/main/Metadaten/zenodo.json). Documentation of the individual metadata variables can be found at https://developers.zenodo.org/representation.
 
-> [Metadaten/zenodo.json](https://github.com/robert-koch-institut/Carotid_intima-media_thickness-Reference_percentiles_from_the_KiGGS_study/blob/main/Metadaten/zenodo.json)
+> [Metadata/zenodo.json](https://github.com/robert-koch-institut/Carotid_intima-media_thickness-Reference_percentiles_from_the_KiGGS_study/blob/main/Metadata/zenodo.json)
 
 The zenodo.json includes the publication date and the date of the data status in the following format (example):
 ```
@@ -236,6 +238,22 @@ The zenodo.json includes the publication date and the date of the data status in
     }
   ],
 ```
+
+
+Additionally, we describe tabular data using the [Data Package Standard](https://datapackage.org/).  
+A Data Package is a structured collection of data and associated metadata that facilitates data exchange and reuse. It consists of a `datapackage.json` file that contains key information such as the included resources, their formats, and schema definitions.  
+
+The Data Package Standard is provided by the [Open Knowledge Foundation](https://okfn.org/) and is an open format that enables a simple, machine-readable description of datasets.  
+
+The list of data included in this repository can be found in the following file:  
+
+> [datapackage.json](https://github.com/robert-koch-institut/Carotid_intima-media_thickness-Reference_percentiles_from_the_KiGGS_study/tree/main/datapackage.json)  
+
+For tabular data, we additionally define a [Table Schema](https://datapackage.org/standard/table-schema/) that describes the structure of the tables, including column names, data types, and validation rules. These schema files can be found in:  
+
+> [Metadata/schemas/](https://github.com/robert-koch-institut/Carotid_intima-media_thickness-Reference_percentiles_from_the_KiGGS_study/tree/main/Metadata/schemas)  
+
+
 
 ## Guidelines for Reuse of the Data
 
