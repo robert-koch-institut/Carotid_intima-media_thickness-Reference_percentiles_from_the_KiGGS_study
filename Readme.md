@@ -1,27 +1,52 @@
+<!-- HEADER_START: {"lang": "en"} -->
+
+
 Documentation  
-# Reference percentiles for carotid measures of subclinical atherosclerosis in children and adolescents – Data from the KiGGS study  
+# Reference percentiles for carotid measures of subclinical atherosclerosis in children and adolescents – Data from the KiGGS study
 
-[**Robert Koch-Institut | RKI**](http://www.rki.de)  
-Nordufer 20   
-13353 Berlin   
+<br> 
+<br> 
+<br> 
 
-<br>  
+[**Julia Büschges**](https://orcid.org/0000-0002-5669-2427)&sup1;, [**Angelika Schaffrath Rosario**](https://orcid.org/0000-0001-7777-8070)&sup1;, [**Giselle Sarganas Margolis**](https://orcid.org/0000-0002-6296-3174)&sup1;, [**Karsten Königstein**](https://orcid.org/0000-0002-2994-8570)&sup2;, **Dieter Schweizer**&sup3;, [**Arno Schmidt-Trucksäss**](https://orcid.org/0000-0002-4662-3911)&#8308;, & [**Hannelore Neuhauser**](https://orcid.org/0000-0002-6605-6221)&sup1;
 
-[**Julia Büschges**](https://orcid.org/0000-0002-5669-2427)&sup1;&sup2;, [**Angelika Schaffrath Rosario**](https://orcid.org/0000-0001-7777-8070)&sup1;, [**Giselle Sarganas Margolis**](https://orcid.org/0000-0002-6296-3174)&sup1;&sup2;, [**Karsten Königstein**](https://orcid.org/0000-0002-2994-8570)&sup2;&sup3;, **Dieter Schweizer**&#8308;, [**Arno Schmidt-Trucksäss**](https://orcid.org/0000-0002-4662-3911)&sup3;, [**Hannelore Neuhauser**](https://orcid.org/0000-0002-6605-6221)&sup1;&sup2;
+<br> 
 
 
-&emsp;&sup1; Robert Koch Institute | Department of Epidemiology and Health Monitoring, Berlin  
-&emsp;&sup2; German Centre for Cardiovascular Research (DZHK) | partner site Berlin  
-&emsp;&sup3; University of Basel | Department of Sport, Exercise and Health, Division Sports and Exercise Medicine  
-&emsp;&#8308; Fukuda Denshi Switzerland AG, Basel  
 
----
+&emsp;&emsp;&sup1; [Robert Koch-Institut](https://www.rki.de/) | [Department 2](https://www.rki.de/abt2-en)  
+&emsp;&emsp;&sup2; [German Centre for Cardiovascular Research (DZHK)](https://dzhk.de/)  
+&emsp;&emsp;&sup3; [Fukuda Denshi Switzerland AG, Basel](https://www.fukuda.com/)  
+&emsp;&emsp;&#8308; [University of Basel](https://www.unibas.ch/) | [Department of Sport, Exercise and Health, Division Sports and Exercise Medicine](https://dsbg.unibas.ch/)
+
+<br> 
 
 **Cite**  
-
-<!-- CITATION_START: {"citation_style": "apa"} -->
 Büschges, J., Schaffrath Rosario, A., Sarganas Margolis, G., Königstein, K., Schweizer, D., Schmidt-Trucksäss, A., & Neuhauser, H. (2022). Reference percentiles for carotid measures of subclinical atherosclerosis in children and adolescents – Data from the KiGGS study [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.7048174](https://doi.org/10.5281/zenodo.7048174)
-<!-- CITATION_END -->
+
+
+<br>
+
+**Abstract**    
+The dataset "Reference percentiles for carotid measures of subclinical atherosclerosis in children and adolescents – Data from the KiGGS study" provides information for assessing subclinical atherosclerosis in young people. The data were obtained from the nationally representative German KiGGS cohort consisting of adolescents and young adults (aged 14–28), between 2014 and 2017 using standardised high-resolution B-mode ultrasound. The dataset contains age- and sex-specific reference percentiles for carotid intima-media thickness (CIMT) and four parameters of carotid stiffness—distensibility coefficient (DC), stiffness index β, Young’s elastic modulus (YEM), and Peterson’s elastic modulus (Ep). The percentile curves were modeled with Generalized Additive Models for Location, Scale and Shape (GAMLSS), using age and height as covariates. This dataset supports the longitudinal monitoring of cardiovascular health.
+
+<br>
+
+**Table of Content**
+<!-- TOC_START: {"heading_depth": 2} -->
+  - [General information](#general-information)
+  - [Measurement of carotid intima-media thickness](#measurement-of-carotid-intima-media-thickness)
+  - [Calculation of carotid stiffness](#calculation-of-carotid-stiffness)
+  - [Statistical Data analysis](#statistical-data-analysis)
+  - [Structure and content of this data set](#structure-and-content-of-this-data-set)
+  - [Guidelines for reuse of the data](#guidelines-for-reuse-of-the-data)
+  - [Literature](#literature)
+<!-- TOC_END -->
+
+<br>
+<!-- HEADER_END -->
+
+
 
 
 ## General information
@@ -222,7 +247,7 @@ To increase findability, the provided data are described with metadata. The Meta
 
 > [Metadata/](https://github.com/robert-koch-institut/Carotid_intima-media_thickness-Reference_percentiles_from_the_KiGGS_study/tree/main/Metadata/)
 
-Versioning and DOI assignment are performed via [Zenodo.org](https://zenodo.org). The metadata prepared for import into Zenodo are stored in the [zenodo.json](https://github.com/robert-koch-institut/Carotid_intima-media_thickness-Reference_percentiles_from_the_KiGGS_study/blob/main/Metadaten/zenodo.json). Documentation of the individual metadata variables can be found at https://developers.zenodo.org/representation.
+Versioning and DOI assignment are performed via [Zenodo.org](https://zenodo.org). The metadata prepared for import into Zenodo are stored in the [zenodo.json](https://github.com/robert-koch-institut/Carotid_intima-media_thickness-Reference_percentiles_from_the_KiGGS_study/blob/main/Metadata/zenodo.json). Documentation of the individual metadata variables can be found at https://developers.zenodo.org/representation.
 
 > [Metadata/zenodo.json](https://github.com/robert-koch-institut/Carotid_intima-media_thickness-Reference_percentiles_from_the_KiGGS_study/blob/main/Metadata/zenodo.json)
 
@@ -234,7 +259,7 @@ The zenodo.json includes the publication date and the date of the data status in
       "start": "2023-09-11T15:00:21+02:00",
       "end": "2023-09-11T15:00:21+02:00",
       "type": "Collected",
-      "description": "Date when the Dataset was created"
+      "description": "Date when the dataset was created"
     }
   ],
 ```
@@ -255,7 +280,7 @@ For tabular data, we additionally define a [Table Schema](https://datapackage.or
 
 
 
-## Guidelines for Reuse of the Data
+## Guidelines for reuse of the data
 
 Open data from the RKI are available on [Zenodo.org](http://Zenodo.org/), [GitHub.com](http://GitHub.com/), [OpenCoDE](https://gitlab.opencode.de), and [Edoc.rki.de](http://Edoc.rki.de/):
 
