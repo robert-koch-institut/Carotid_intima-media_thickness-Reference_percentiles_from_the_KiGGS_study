@@ -2,6 +2,7 @@
 
 
 Documentation  
+
 # Reference percentiles for carotid measures of subclinical atherosclerosis in children and adolescents – Data from the KiGGS study
 
 <br> 
@@ -16,13 +17,15 @@ Documentation
 
 &emsp;&emsp;&sup1; [Robert Koch-Institut](https://www.rki.de/) | [Department 2](https://www.rki.de/abt2-en)  
 &emsp;&emsp;&sup2; [German Centre for Cardiovascular Research (DZHK)](https://dzhk.de/)  
-&emsp;&emsp;&sup3; [Fukuda Denshi Switzerland AG, Basel](https://www.fukuda.com/)  
+&emsp;&emsp;&sup3; [Fukuda Denshi Switzerland AG, Basel](https://fukuda.com/)  
 &emsp;&emsp;&#8308; [University of Basel](https://www.unibas.ch/) | [Department of Sport, Exercise and Health, Division Sports and Exercise Medicine](https://dsbg.unibas.ch/)
 
 <br> 
 
 **Cite**  
+<!-- CITATION_START: {"citation_style": "apa"} -->
 Büschges, J., Schaffrath Rosario, A., Sarganas Margolis, G., Königstein, K., Schweizer, D., Schmidt-Trucksäss, A., & Neuhauser, H. (2022). Reference percentiles for carotid measures of subclinical atherosclerosis in children and adolescents – Data from the KiGGS study [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.7048174](https://doi.org/10.5281/zenodo.7048174)
+<!-- CITATION_END -->
 
 
 <br>
@@ -32,18 +35,20 @@ The dataset "Reference percentiles for carotid measures of subclinical atheroscl
 
 <br>
 
-**Table of Content**
+**Table of Content**  
+
 <!-- TOC_START: {"heading_depth": 2} -->
-  - [General information](#general-information)
-  - [Measurement of carotid intima-media thickness](#measurement-of-carotid-intima-media-thickness)
-  - [Calculation of carotid stiffness](#calculation-of-carotid-stiffness)
-  - [Statistical Data analysis](#statistical-data-analysis)
-  - [Structure and content of this data set](#structure-and-content-of-this-data-set)
-  - [Guidelines for reuse of the data](#guidelines-for-reuse-of-the-data)
-  - [Literature](#literature)
+  - [General information](#general-information)  
+  - [Measurement of carotid intima-media thickness](#measurement-of-carotid-intima-media-thickness)  
+  - [Calculation of carotid stiffness](#calculation-of-carotid-stiffness)  
+  - [Statistical Data analysis](#statistical-data-analysis)  
+  - [Structure and content of this data set](#structure-and-content-of-this-data-set)  
+  - [Guidelines for reuse of the data](#guidelines-for-reuse-of-the-data)  
+  - [Literature](#literature)  
 <!-- TOC_END -->
 
 <br>
+
 <!-- HEADER_END -->
 
 
@@ -53,7 +58,7 @@ The dataset "Reference percentiles for carotid measures of subclinical atheroscl
 
 This dataset presents reference centile data for carotid intima-media thickness as well as four carotid stiffness parameters. Further details can be found in previously published articles [[1](https://doi.org/10.1016/j.ultrasmedbio.2020.10.015), [2](https://doi.org/10.1161/hypertensionaha.121.18521)].
 
-The reference percentiles presented in this publication are based on data from the German Health Interview and Examination Survey for Children and Adolescents 2003-2006 (KiGGS). A number of more detailed papers have been published on individual parameters [[1](https://doi.org/10.1016/10.1161/HYPERTENSIONAHA.121.18521),[2](https://doi.org/10.1161/hypertensionaha.121.18521),[3](https://doi.org/10.1016/j.ultrasmedbio.2020.10.015)]. KiGGS started as a cross-sectional study conducted between 2003 and 2006 which was based on a nationally representative sample and aimed at obtaining comprehensive data on the health of children and adolescents aged 0 to 17 years living in Germany. Detailed information on study design and conduct has been published elsewhere [[4](https://doi.org/10.1186/1471-2458-8-196)]. 11 years later, KiGGS Wave 2 (2014-2017) was conducted as an interview and examination survey. 
+The reference percentiles presented in this publication are based on data from the German Health Interview and Examination Survey for Children and Adolescents 2003-2006 (KiGGS). A number of more detailed papers have been published on individual parameters [[1](https://doi.org/10.1016/10.1161/hypertensionaha.121.18521),[2](https://doi.org/10.1161/hypertensionaha.121.18521),[3](https://doi.org/10.1016/j.ultrasmedbio.2020.10.015)]. KiGGS started as a cross-sectional study conducted between 2003 and 2006 which was based on a nationally representative sample and aimed at obtaining comprehensive data on the health of children and adolescents aged 0 to 17 years living in Germany. Detailed information on study design and conduct has been published elsewhere [[4](https://doi.org/10.1186/1471-2458-8-196)]. 11 years later, KiGGS Wave 2 (2014-2017) was conducted as an interview and examination survey. 
 
 Carotid sonography was attempted at follow-up (KiGGS2) in all 4,798 participants of the KiGGS cohort aged 14 to 28 years. Carotid intima-media thickness (CIMT) was successfully measured in 4,709 participants. Reference centiles for the distensibility coefficient, stiffness index ß, Young's elastic modulus and Peterson's elastic modulus were computed using data on 4,305 adolescents and young adults aged 14 to 28.
 
@@ -147,7 +152,7 @@ The data is contained in the following files:
 > Percentiles/KiGGS2-2014-2017_Percentiles_Subclinical_Atherosclerosis.csv
 > Percentiles/KiGGS2-2014-2017_Percentiles_Subclinical_Atherosclerosis.xlsx
 
-The naming scheme of the files, “KiGGSx-YYYY-YYYY", indicates the respective KiGGS wave "x" and the respective data collection years “YYYY-YYYY”. 
+The naming scheme of the files, "KiGGSx-YYYY-YYYY", indicates the respective KiGGS wave "x" and the respective data collection years "YYYY-YYYY". 
 
 #### Variables
 
@@ -155,22 +160,23 @@ The naming scheme of the files, “KiGGSx-YYYY-YYYY", indicates the respective K
 <!-- DATA_SCHEMA_SPECIFICATION_START: {"id": "KiGGS2-2014-2017_Percentiles_Subclinical_Atherosclerosis", "lang": "en"} -->
 
 The file [Percentiles/KiGGS2-2014-2017_Percentiles_Subclinical_Atherosclerosis.csv](https://github.com/robert-koch-institut/Carotid_intima-media_thickness-Reference_percentiles_from_the_KiGGS_study/blob/main/Percentiles/KiGGS2-2014-2017_Percentiles_Subclinical_Atherosclerosis.csv) contains the variables and their values shown in the following table. A machine-readable data schema is stored in [Data Package Format](https://datapackage.org/) in [tableschema_KiGGS2-2014-2017_Percentiles_Subclinical_Atherosclerosis.json](https://github.com/robert-koch-institut/Carotid_intima-media_thickness-Reference_percentiles_from_the_KiGGS_study/blob/main/Metadata/schemas/tableschema_KiGGS2-2014-2017_Percentiles_Subclinical_Atherosclerosis.json):
+
 > [tableschema_KiGGS2-2014-2017_Percentiles_Subclinical_Atherosclerosis.json](https://github.com/robert-koch-institut/Carotid_intima-media_thickness-Reference_percentiles_from_the_KiGGS_study/blob/main/Metadata/schemas/tableschema_KiGGS2-2014-2017_Percentiles_Subclinical_Atherosclerosis.json)
 
 <!-- DATA_SCHEMA_TABLE_START -->
-| Variable   | Type    | Characteristic                            | Description                                                                                         |
-|:-----------|:--------|:------------------------------------------|:----------------------------------------------------------------------------------------------------|
-| indicator  | string  | Values: `cimt`, `dc`, `Ep`, `yem`, `beta` | Indicator estimated by the GAMLSS model in the KiGGS study. `cimt`: carotid intima-media thickness. |
-| sex        | string  | Values: `f`, `m`                          | Sex as an explanatory variable for the GAMLSS model; `f` : female, `m`: male                        |
-| ageY       | number  | Values: `14` - `28.5`                     | Age in years as an explanatory variable for the GAMLSS model                                        |
-| height     | integer | Values: `150` - `190`                     | Height in cm as an explanatory variable for the GAMLSS model                                        |
-| P5         | number  | Values: `≥0`                              | KiGGS 5% reference percentile, specific on modeled variables                                        |
-| P10        | number  | Values: `≥0`                              | KiGGS 10% reference percentile, specific on modeled variables                                       |
-| P25        | number  | Values: `≥0`                              | KiGGS 25% reference percentile, specific on modeled variables                                       |
-| P50        | number  | Values: `≥0`                              | KiGGS 50% reference percentile, specific on modeled variables                                       |
-| P75        | number  | Values: `≥0`                              | KiGGS 75% reference percentile, specific on modeled variables                                       |
-| P90        | number  | Values: `≥0`                              | KiGGS 90% reference percentile, specific on modeled variables                                       |
-| P95        | number  | Values: `≥0`                              | KiGGS 95% reference percentile, specific on modeled variables                                       |
+| Variable   | Type    | Characteristic                               | Description                                                                                         |
+|:-----------|:--------|:---------------------------------------------|:----------------------------------------------------------------------------------------------------|
+| indicator  | string  | Values:<br>`cimt`, `dc`, `Ep`, `yem`, `beta` | Indicator estimated by the GAMLSS model in the KiGGS study. `cimt`: carotid intima-media thickness. |
+| sex        | string  | Values:<br>`f`, `m`                          | Sex as an explanatory variable for the GAMLSS model; `f` : female, `m`: male                        |
+| ageY       | number  | Values: `14` - `28.5`                        | Age in years as an explanatory variable for the GAMLSS model                                        |
+| height     | integer | Values: `150` - `190`                        | Height in cm as an explanatory variable for the GAMLSS model                                        |
+| P5         | number  | Values: `≥0`                                 | KiGGS 5% reference percentile, specific on modeled variables                                        |
+| P10        | number  | Values: `≥0`                                 | KiGGS 10% reference percentile, specific on modeled variables                                       |
+| P25        | number  | Values: `≥0`                                 | KiGGS 25% reference percentile, specific on modeled variables                                       |
+| P50        | number  | Values: `≥0`                                 | KiGGS 50% reference percentile, specific on modeled variables                                       |
+| P75        | number  | Values: `≥0`                                 | KiGGS 75% reference percentile, specific on modeled variables                                       |
+| P90        | number  | Values: `≥0`                                 | KiGGS 90% reference percentile, specific on modeled variables                                       |
+| P95        | number  | Values: `≥0`                                 | KiGGS 95% reference percentile, specific on modeled variables                                       |
 
 <!-- DATA_SCHEMA_TABLE_END -->
 
@@ -181,7 +187,7 @@ The file [Percentiles/KiGGS2-2014-2017_Percentiles_Subclinical_Atherosclerosis.c
 In order to meet the community's needs, the data is provided in two formats, .csv and .xlsx. The .csv file is formatted according to the international standard:
 
 - Character set: UTF-8
-- .csv separator: comma “,”
+- .csv separator: comma `,`
 
 The .xlsx file provides a German decimal separator for the reference data sets.
 
@@ -196,20 +202,21 @@ The data is contained in the following files:
 > KiGGS2-2014-2017_GAMLSS_Subclinical_Atherosclerosis.csv
 > KiGGS2-2014-2017_GAMLSS_Subclinical_Atherosclerosis.xlsx
 
-The naming scheme of the files, “KiGGSx-YYYY-YYYY”, indicates the respective data collection years “YYYY-YYYY”. 
+The naming scheme of the files, "KiGGSx-YYYY-YYYY", indicates the respective data collection years "YYYY-YYYY". 
 
 #### Variables
 
 <!-- DATA_SCHEMA_SPECIFICATION_START: {"id": "KiGGS2-2014-2017_GAMLSS_Subclinical_Atherosclerosis", "lang": "en"} -->
 
 The file [KiGGS2-2014-2017_GAMLSS_Subclinical_Atherosclerosis.csv](https://github.com/robert-koch-institut/Carotid_intima-media_thickness-Reference_percentiles_from_the_KiGGS_study/blob/main/KiGGS2-2014-2017_GAMLSS_Subclinical_Atherosclerosis.csv) contains the variables and their values shown in the following table. A machine-readable data schema is stored in [Data Package Format](https://datapackage.org/) in [tableschema_KiGGS2-2014-2017_GAMLSS_Subclinical_Atherosclerosis.json](https://github.com/robert-koch-institut/Carotid_intima-media_thickness-Reference_percentiles_from_the_KiGGS_study/blob/main/Metadata/schemas/tableschema_KiGGS2-2014-2017_GAMLSS_Subclinical_Atherosclerosis.json):
+
 > [tableschema_KiGGS2-2014-2017_GAMLSS_Subclinical_Atherosclerosis.json](https://github.com/robert-koch-institut/Carotid_intima-media_thickness-Reference_percentiles_from_the_KiGGS_study/blob/main/Metadata/schemas/tableschema_KiGGS2-2014-2017_GAMLSS_Subclinical_Atherosclerosis.json)
 
 <!-- DATA_SCHEMA_TABLE_START -->
 | Variable   | Type    | Characteristic        | Description                                                                                         |
 |:-----------|:--------|:----------------------|:----------------------------------------------------------------------------------------------------|
-| indicator  | string  | Values: `cimt`        | Indicator estimated by the GAMLSS model in the KiGGS study. `cimt`: carotid intima-media thickness. |
-| sex        | string  | Values: `f`, `m`      | Sex as an explanatory variable for the GAMLSS model; `f` : female, `m`: male                        |
+| indicator  | string  | Values:<br>`cimt`     | Indicator estimated by the GAMLSS model in the KiGGS study. `cimt`: carotid intima-media thickness. |
+| sex        | string  | Values:<br>`f`, `m`   | Sex as an explanatory variable for the GAMLSS model; `f` : female, `m`: male                        |
 | ageY       | number  | Values: `14` - `28.5` | Age in years as an explanatory variable for the GAMLSS model                                        |
 | height     | integer | Values: `150` - `190` | Height in cm as an explanatory variable for the GAMLSS model                                        |
 | mu         | number  | Example: `0.51211`    | GAMLSS model parameter: Median (50th centile)                                                       |
@@ -225,7 +232,7 @@ The file [KiGGS2-2014-2017_GAMLSS_Subclinical_Atherosclerosis.csv](https://githu
 In order to meet the community's needs, the data is provided in two formats, .csv and .xlsx. The .csv file is formatted according to the international standard:
 
 - Character set: UTF-8
-- .csv separator: comma “,”
+- .csv separator: comma `,`
 
 The .xlsx file provides a German decimal separator for the reference data sets.
 
@@ -236,10 +243,9 @@ The .xlsx file provides a German decimal separator for the reference data sets.
 - These reference percentiles were derived from a large general population sample of German children and adolescents.
 - These data contribute to understanding the natural development of arterial structure and function from childhood and adolescence to young adulthood.
 
-Access restrictions apply to the raw data underlying the centile estimation. The raw data set cannot be made publicly available because informed consent from study participants did not cover public deposition of data. However, the minimal data set underlying the findings is archived in the ‘Health Monitoring’ Research Data Centre at the Robert Koch Institute (RKI) and can be accessed by researchers on reasonable request. On-site access to the data set is possible at the Secure Data Center of the RKI’s ‘Health Monitoring’ Research Data Centre. Requests should be submitted to the ‘Health Monitoring’ Research Data Centre, Robert Koch Institute, Berlin, Germany fdz@rki.de.
+Access restrictions apply to the raw data underlying the centile estimation. The raw data set cannot be made publicly available because informed consent from study participants did not cover public deposition of data. However, the minimal data set underlying the findings is archived in the ‘Health Monitoring’ Research Data Centre at the Robert Koch Institute (RKI) and can be accessed by researchers on reasonable request. On-site access to the data set is possible at the Secure Data Center of the RKI’s ‘Health Monitoring’ Research Data Centre. Requests should be submitted to the ‘Health Monitoring’ Research Data Centre, Robert Koch Institute, Berlin, Germany [fdz@rki.de](mailto:fdz@rki.de).
 
 <!-- FOOTER_START: {"lang": "en"} -->
-
 
 ### Metadata
 
@@ -247,7 +253,7 @@ To increase findability, the provided data are described with metadata. The Meta
 
 > [Metadata/](https://github.com/robert-koch-institut/Carotid_intima-media_thickness-Reference_percentiles_from_the_KiGGS_study/tree/main/Metadata/)
 
-Versioning and DOI assignment are performed via [Zenodo.org](https://zenodo.org). The metadata prepared for import into Zenodo are stored in the [zenodo.json](https://github.com/robert-koch-institut/Carotid_intima-media_thickness-Reference_percentiles_from_the_KiGGS_study/blob/main/Metadata/zenodo.json). Documentation of the individual metadata variables can be found at https://developers.zenodo.org/representation.
+Versioning and DOI assignment are performed via [Zenodo.org](https://zenodo.org). The metadata prepared for import into Zenodo are stored in the [zenodo.json](https://github.com/robert-koch-institut/Carotid_intima-media_thickness-Reference_percentiles_from_the_KiGGS_study/blob/main/Metadata/zenodo.json). Documentation of the individual metadata variables can be found at [https://developers.zenodo.org/representation](https://developers.zenodo.org/#representation).
 
 > [Metadata/zenodo.json](https://github.com/robert-koch-institut/Carotid_intima-media_thickness-Reference_percentiles_from_the_KiGGS_study/blob/main/Metadata/zenodo.json)
 
@@ -258,8 +264,8 @@ The zenodo.json includes the publication date and the date of the data status in
     {
       "start": "2023-09-11T15:00:21+02:00",
       "end": "2023-09-11T15:00:21+02:00",
-      "type": "Collected",
-      "description": "Date when the dataset was created"
+      "type": "Created",
+      "description": "Date when the published data was created"
     }
   ],
 ```
@@ -284,10 +290,12 @@ For tabular data, we additionally define a [Table Schema](https://datapackage.or
 
 Open data from the RKI are available on [Zenodo.org](http://Zenodo.org/), [GitHub.com](http://GitHub.com/), [OpenCoDE](https://gitlab.opencode.de), and [Edoc.rki.de](http://Edoc.rki.de/):
 
-- https://zenodo.org/communities/robertkochinstitut
-- https://github.com/robert-koch-institut
-- https://gitlab.opencode.de/robert-koch-institut
-- https://edoc.rki.de/
+- [https://zenodo.org/communities/robertkochinstitut](https://zenodo.org/communities/robertkochinstitut)
+- [https://github.com/robert-koch-institut](https://github.com/robert-koch-institut)
+- [https://gitlab.opencode.de/robert-koch-institut](https://gitlab.opencode.de/robert-koch-institut)
+- [https://edoc.rki.de/](https://edoc.rki.de/)
+
+
 
 ### License
 
@@ -302,7 +310,7 @@ Further information about the license can be found in the [LICENSE](https://gith
 
 ## Literature
 
-1. Neuhauser HK, Büschges J, Schaffrath Rosario A, Schienkiewitz A, Sarganas G, Königstein K, Schweizer D, Schmidt-Trucksäss A. Carotid Intima-Media Thickness Percentiles in Adolescence and Young Adulthood and Their Association With Obesity and Hypertensive Blood Pressure in a Population Cohort. Hypertension. 2022 Jun;79(6):1167-1176. [DOI: 10.1161/HYPERTENSIONAHA.121.18521](https://doi.org/10.1016/10.1161/HYPERTENSIONAHA.121.18521).
+1. Neuhauser HK, Büschges J, Schaffrath Rosario A, Schienkiewitz A, Sarganas G, Königstein K, Schweizer D, Schmidt-Trucksäss A. Carotid Intima-Media Thickness Percentiles in Adolescence and Young Adulthood and Their Association With Obesity and Hypertensive Blood Pressure in a Population Cohort. Hypertension. 2022 Jun;79(6):1167-1176. [DOI: 10.1161/hypertensionaha.121.18521](https://doi.org/10.1161/hypertensionaha.121.18521).
 
 2. Büschges J, Schaffrath Rosario A, Schienkiewitz A, Königstein K, Sarganas G, Schmidt-Trucksäss A, Neuhauser H. Vascular aging in the young: New carotid stiffness centiles and association with general and abdominal obesity - The KIGGS cohort. Atherosclerosis. 2022 Aug;355:60-67. [DOI: 10.1016/j.atherosclerosis.2022.05.003](https://doi.org/10.1016/j.atherosclerosis.2022.05.003). 
 
